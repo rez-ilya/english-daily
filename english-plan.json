@@ -1,0 +1,1661 @@
+{
+  "title": "План английского: говорение и письмо",
+  "startDate": "2026-10-12",
+  "endDate": "2026-12-27",
+  "restDay": "sunday",
+  "dailySteps": [
+    {
+      "id": "shadow",
+      "name": "Shadowing",
+      "hint": "10 мин · выпуск 6 Minute English"
+    },
+    {
+      "id": "grammar",
+      "name": "Грамматика",
+      "hint": "10 мин · тема дня + 5 предложений о себе"
+    },
+    {
+      "id": "speak",
+      "name": "Говорение",
+      "hint": "15 мин · план, запись, разбор, вторая запись"
+    },
+    {
+      "id": "write",
+      "name": "Письмо",
+      "hint": "15 мин · текст + проверка + журнал ошибок"
+    },
+    {
+      "id": "phrases",
+      "name": "Фразы",
+      "hint": "5–10 мин · 5 новых в Anki, повторение"
+    }
+  ],
+  "ieltsCriteria": [
+    {
+      "id": "fluency",
+      "name": "Беглость и связность"
+    },
+    {
+      "id": "lexis",
+      "name": "Словарный запас"
+    },
+    {
+      "id": "grammar",
+      "name": "Грамматика"
+    },
+    {
+      "id": "pron",
+      "name": "Произношение"
+    }
+  ],
+  "controlRecordings": [
+    "2026-10-12",
+    "2026-11-07",
+    "2026-12-05",
+    "2026-12-26"
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "About me",
+      "speakingLength": "1 мин",
+      "writingLength": "80–100 слов",
+      "days": [
+        {
+          "date": "2026-10-12",
+          "weekday": "mon",
+          "grammar": "Present simple",
+          "speaking": "Introduce yourself: name, city, university, what you study",
+          "writing": "An email to a new pen friend introducing yourself",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Present simple",
+              "url": "https://www.youtube.com/results?search_query=Present%20simple%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Как представиться по-английски: примеры",
+              "url": "https://www.youtube.com/results?search_query=how%20to%20introduce%20yourself%20in%20English%20intermediate"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "weekday": "tue",
+          "grammar": "Present continuous",
+          "speaking": "What are you doing these days? Studies, projects, plans this month",
+          "writing": "A message to a friend: what's new in your life",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Present continuous",
+              "url": "https://www.youtube.com/results?search_query=Present%20continuous%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Рассказ о своём дне: разговорная практика",
+              "url": "https://www.youtube.com/results?search_query=daily%20routine%20English%20speaking%20practice"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "weekday": "wed",
+          "grammar": "Past simple",
+          "speaking": "What did you do last weekend?",
+          "writing": "Your last weekend, step by step",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Past simple",
+              "url": "https://www.youtube.com/results?search_query=Past%20simple%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Истории на английском для аудирования",
+              "url": "https://www.youtube.com/results?search_query=English%20listening%20practice%20short%20story%20intermediate"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "weekday": "thu",
+          "grammar": "Past continuous",
+          "speaking": "A memorable day: what were you doing when something happened?",
+          "writing": "A short story about an unexpected event",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Past continuous",
+              "url": "https://www.youtube.com/results?search_query=Past%20continuous%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Как рассказывать истории по-английски",
+              "url": "https://www.youtube.com/results?search_query=how%20to%20tell%20a%20story%20in%20English%20speaking"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "weekday": "fri",
+          "grammar": "Present perfect",
+          "speaking": "Things you have done and never done (travel, sports, food)",
+          "writing": "Your achievements this year",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Present perfect",
+              "url": "https://www.youtube.com/results?search_query=Present%20perfect%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Bucket list — что люди мечтают сделать",
+              "url": "https://en.wikipedia.org/wiki/Bucket_list"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите тему понедельника и сравните",
+          "writing": "«About me» — 150 слов из текстов недели",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Shadowing: тренировка произношения",
+              "url": "https://www.youtube.com/results?search_query=English%20shadowing%20practice%20intermediate"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "theme": "Plans and choices",
+      "speakingLength": "1 мин",
+      "writingLength": "100–120 слов",
+      "days": [
+        {
+          "date": "2026-10-19",
+          "weekday": "mon",
+          "grammar": "Future: will / going to / present continuous",
+          "speaking": "Your plans for the next year",
+          "writing": "Where you see yourself in 2028",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Future: will / going to / present continuous",
+              "url": "https://www.youtube.com/results?search_query=Future%3A%20will%20%2F%20going%20to%20%2F%20present%20continuous%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Пол Грэм, «How to Do Great Work»",
+              "url": "https://paulgraham.com/greatwork.html"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "weekday": "tue",
+          "grammar": "Comparatives and superlatives",
+          "speaking": "Compare Tomsk with another city you know",
+          "writing": "Two cities: which is better to live in?",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Comparatives and superlatives",
+              "url": "https://www.youtube.com/results?search_query=Comparatives%20and%20superlatives%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Томск в английской Википедии",
+              "url": "https://en.wikipedia.org/wiki/Tomsk"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "weekday": "wed",
+          "grammar": "Can / could / be able to",
+          "speaking": "Skills you have and skills you want to learn",
+          "writing": "Your three most useful skills",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Can / could / be able to",
+              "url": "https://www.youtube.com/results?search_query=Can%20%2F%20could%20%2F%20be%20able%20to%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Soft skills: какие навыки ценят",
+              "url": "https://en.wikipedia.org/wiki/Soft_skills"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "weekday": "thu",
+          "grammar": "Must / have to / should",
+          "speaking": "Advice for a first-year student at your university",
+          "writing": "A letter of advice to a first-year student",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Must / have to / should",
+              "url": "https://www.youtube.com/results?search_query=Must%20%2F%20have%20to%20%2F%20should%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Ваш университет глазами англоязычной Википедии",
+              "url": "https://en.wikipedia.org/wiki/Tomsk_Polytechnic_University"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "weekday": "fri",
+          "grammar": "Questions (word order)",
+          "speaking": "Write 10 questions to a foreign student, then answer them yourself",
+          "writing": "An interview with yourself: 5 questions and answers",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Questions (word order)",
+              "url": "https://www.youtube.com/results?search_query=Questions%20(word%20order)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Small talk: вопросы и ответы",
+              "url": "https://www.youtube.com/results?search_query=English%20small%20talk%20questions%20practice"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-24",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите одну тему недели",
+          "writing": "Your plans and why they matter to you — 150 слов",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Shadowing и произношение",
+              "url": "https://www.youtube.com/results?search_query=English%20pronunciation%20shadowing%20practice"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "theme": "Experience",
+      "speakingLength": "1 мин",
+      "writingLength": "120–150 слов",
+      "days": [
+        {
+          "date": "2026-10-26",
+          "weekday": "mon",
+          "grammar": "Present perfect continuous",
+          "speaking": "How long have you been learning English and programming?",
+          "writing": "Your learning story",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Present perfect continuous",
+              "url": "https://www.youtube.com/results?search_query=Present%20perfect%20continuous%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Как люди учат второй язык",
+              "url": "https://en.wikipedia.org/wiki/Second-language_acquisition"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "weekday": "tue",
+          "grammar": "Past perfect",
+          "speaking": "A problem you solved: what had happened before you fixed it?",
+          "writing": "The hardest task you completed at university",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Past perfect",
+              "url": "https://www.youtube.com/results?search_query=Past%20perfect%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Debugging: как ищут ошибки в коде",
+              "url": "https://en.wikipedia.org/wiki/Debugging"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "weekday": "wed",
+          "grammar": "Used to",
+          "speaking": "How your life has changed since school",
+          "writing": "Then and now: you at 15 and you today",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Used to",
+              "url": "https://www.youtube.com/results?search_query=Used%20to%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Spaced repetition — метод, на котором работает Anki",
+              "url": "https://en.wikipedia.org/wiki/Spaced_repetition"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "weekday": "thu",
+          "grammar": "Relative clauses (who / which / that)",
+          "speaking": "A person who influenced you",
+          "writing": "A teacher or friend who changed something in your life",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Relative clauses (who / which / that)",
+              "url": "https://www.youtube.com/results?search_query=Relative%20clauses%20(who%20%2F%20which%20%2F%20that)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Алан Тьюринг: человек, изменивший компьютерные науки",
+              "url": "https://en.wikipedia.org/wiki/Alan_Turing"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "weekday": "fri",
+          "grammar": "Articles (a / the / no article)",
+          "speaking": "Describe your room or workplace",
+          "writing": "Describe your ideal place to study",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Articles (a / the / no article)",
+              "url": "https://www.youtube.com/results?search_query=Articles%20(a%20%2F%20the%20%2F%20no%20article)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Описание комнаты: полезная лексика",
+              "url": "https://www.youtube.com/results?search_query=describe%20your%20room%20in%20English%20vocabulary"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-31",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите одну тему недели",
+          "writing": "A turning point in your life — 180 слов",
+          "materials": [
+            {
+              "type": "Читать",
+              "title": "Пол Грэм, «Writing, Briefly» — как писать коротко",
+              "url": "https://paulgraham.com/writing44.html"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "theme": "What if",
+      "speakingLength": "1 мин",
+      "writingLength": "130–150 слов",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "weekday": "mon",
+          "grammar": "First conditional",
+          "speaking": "What will you do if you get into a master's programme abroad?",
+          "writing": "Your plan if you are admitted",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: First conditional",
+              "url": "https://www.youtube.com/results?search_query=First%20conditional%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Erasmus Mundus — совместные магистратуры ЕС",
+              "url": "https://en.wikipedia.org/wiki/Erasmus_Mundus"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "weekday": "tue",
+          "grammar": "Second conditional",
+          "speaking": "If you could live in any country, which would you choose and why?",
+          "writing": "If I had a free year, I would...",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Second conditional",
+              "url": "https://www.youtube.com/results?search_query=Second%20conditional%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Expatriate: жизнь в другой стране",
+              "url": "https://en.wikipedia.org/wiki/Expatriate"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "weekday": "wed",
+          "grammar": "Gerund or infinitive",
+          "speaking": "Things you enjoy, avoid and want to try",
+          "writing": "Your perfect day off",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Gerund or infinitive",
+              "url": "https://www.youtube.com/results?search_query=Gerund%20or%20infinitive%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Work–life balance",
+              "url": "https://en.wikipedia.org/wiki/Work%E2%80%93life_balance"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "weekday": "thu",
+          "grammar": "Linking: although, however, because, so",
+          "speaking": "Pros and cons of living in a student dormitory",
+          "writing": "Dormitory or rented flat?",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Linking: although, however, because, so",
+              "url": "https://www.youtube.com/results?search_query=Linking%3A%20although%2C%20however%2C%20because%2C%20so%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Dormitory: общежития в разных странах",
+              "url": "https://en.wikipedia.org/wiki/Dormitory"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "weekday": "fri",
+          "grammar": "Passive (present and past)",
+          "speaking": "How the admission process at your university works",
+          "writing": "How a typical exam is organised",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Passive (present and past)",
+              "url": "https://www.youtube.com/results?search_query=Passive%20(present%20and%20past)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Болонский процесс: как устроено высшее образование в Европе",
+              "url": "https://en.wikipedia.org/wiki/Bologna_Process"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "weekday": "sat",
+          "grammar": "Контрольная точка",
+          "speaking": "Запишите 2 минуты «Tell me about yourself» и сравните с записью первого дня",
+          "writing": "Free topic — 180 слов",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Speaking Part 1: примеры ответов",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20speaking%20part%201%20sample%20answers"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "theme": "University life",
+      "speakingLength": "1,5 мин",
+      "writingLength": "150 слов",
+      "days": [
+        {
+          "date": "2026-11-09",
+          "weekday": "mon",
+          "grammar": "Passive (review)",
+          "speaking": "Your university: where it is, when it was founded, what it is known for",
+          "writing": "Describe your university to a foreign applicant",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Passive (review)",
+              "url": "https://www.youtube.com/results?search_query=Passive%20(review)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Master's degree: магистратура в разных странах",
+              "url": "https://en.wikipedia.org/wiki/Master%27s_degree"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "weekday": "tue",
+          "grammar": "Prepositions of time and place",
+          "speaking": "Your study schedule and campus",
+          "writing": "A typical week at university",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Prepositions of time and place",
+              "url": "https://www.youtube.com/results?search_query=Prepositions%20of%20time%20and%20place%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Лексика студенческой жизни",
+              "url": "https://www.youtube.com/results?search_query=university%20life%20English%20vocabulary"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "weekday": "wed",
+          "grammar": "Reported speech",
+          "speaking": "Retell what a lecturer said in a recent lecture",
+          "writing": "Summary of one lecture: what was said and what you think",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Reported speech",
+              "url": "https://www.youtube.com/results?search_query=Reported%20speech%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Лекция MIT по машинному обучению — для пересказа",
+              "url": "https://www.youtube.com/results?search_query=MIT%20OpenCourseWare%20machine%20learning%20lecture"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "weekday": "thu",
+          "grammar": "Countable and uncountable",
+          "speaking": "Your study setup: computer, software, tools",
+          "writing": "The tools you can't study without",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Countable and uncountable",
+              "url": "https://www.youtube.com/results?search_query=Countable%20and%20uncountable%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "IDE: среды разработки",
+              "url": "https://en.wikipedia.org/wiki/Integrated_development_environment"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "weekday": "fri",
+          "grammar": "Relative clauses (where / whose)",
+          "speaking": "Your favourite course and why",
+          "writing": "A course that was more useful than you expected",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Relative clauses (where / whose)",
+              "url": "https://www.youtube.com/results?search_query=Relative%20clauses%20(where%20%2F%20whose)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Data science",
+              "url": "https://en.wikipedia.org/wiki/Data_science"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите одну тему недели",
+          "writing": "Studying at TPU: pros and cons — 200 слов",
+          "materials": [
+            {
+              "type": "Читать",
+              "title": "Пол Грэм, «Write Simply»",
+              "url": "https://paulgraham.com/simply.html"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "theme": "ML in simple words",
+      "speakingLength": "1,5 мин",
+      "writingLength": "150–180 слов",
+      "days": [
+        {
+          "date": "2026-11-16",
+          "weekday": "mon",
+          "grammar": "Present simple for facts and processes",
+          "speaking": "Explain what machine learning is to someone who knows nothing about it",
+          "writing": "ML explained to your grandmother",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Present simple for facts and processes",
+              "url": "https://www.youtube.com/results?search_query=Present%20simple%20for%20facts%20and%20processes%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Machine learning — статья-обзор",
+              "url": "https://en.wikipedia.org/wiki/Machine_learning"
+            },
+            {
+              "type": "Видео",
+              "title": "3Blue1Brown: нейросети наглядно",
+              "url": "https://www.3blue1brown.com/topics/neural-networks"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "weekday": "tue",
+          "grammar": "Sequencing: first, then, after that, finally",
+          "speaking": "A project you did, step by step",
+          "writing": "Description of one of your projects",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Sequencing: first, then, after that, finally",
+              "url": "https://www.youtube.com/results?search_query=Sequencing%3A%20first%2C%20then%2C%20after%20that%2C%20finally%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "StatQuest: ML простыми словами",
+              "url": "https://www.youtube.com/results?search_query=StatQuest%20machine%20learning"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "weekday": "wed",
+          "grammar": "Third conditional",
+          "speaking": "A bug or mistake you made: what would have happened if you had done it differently?",
+          "writing": "A lesson you learned the hard way",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Third conditional",
+              "url": "https://www.youtube.com/results?search_query=Third%20conditional%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Software bug: известные ошибки в истории",
+              "url": "https://en.wikipedia.org/wiki/Software_bug"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "weekday": "thu",
+          "grammar": "Wish / if only",
+          "speaking": "What you wish you had known when you started programming",
+          "writing": "Advice to yourself one year ago",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Wish / if only",
+              "url": "https://www.youtube.com/results?search_query=Wish%20%2F%20if%20only%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Андрей Карпатый, «Neural Networks: Zero to Hero»",
+              "url": "https://karpathy.ai/zero-to-hero.html"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "weekday": "fri",
+          "grammar": "Phrasal verbs: set up, figure out, come up with, look into",
+          "speaking": "Your workflow when you get a new task",
+          "writing": "How you approach a new problem",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Phrasal verbs: set up, figure out, come up with, look into",
+              "url": "https://www.youtube.com/results?search_query=Phrasal%20verbs%3A%20set%20up%2C%20figure%20out%2C%20come%20up%20with%2C%20look%20into%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Problem solving",
+              "url": "https://en.wikipedia.org/wiki/Problem_solving"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите тему вторника",
+          "writing": "Your best project in detail — 200 слов",
+          "materials": [
+            {
+              "type": "Читать",
+              "title": "Kaggle — соревнования по ML",
+              "url": "https://en.wikipedia.org/wiki/Kaggle"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "theme": "AI around us",
+      "speakingLength": "2 мин",
+      "writingLength": "180 слов",
+      "days": [
+        {
+          "date": "2026-11-23",
+          "weekday": "mon",
+          "grammar": "Modals of deduction (must / might / can't be)",
+          "speaking": "How AI is used in medicine (or another field you like)",
+          "writing": "One real use of AI that impresses you",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Modals of deduction (must / might / can't be)",
+              "url": "https://www.youtube.com/results?search_query=Modals%20of%20deduction%20(must%20%2F%20might%20%2F%20can't%20be)%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "ИИ в медицине",
+              "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "weekday": "tue",
+          "grammar": "Passive with modals",
+          "speaking": "How a recommendation system works (YouTube, music, shops)",
+          "writing": "How an app decides what to show you",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Passive with modals",
+              "url": "https://www.youtube.com/results?search_query=Passive%20with%20modals%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Recommender system",
+              "url": "https://en.wikipedia.org/wiki/Recommender_system"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "weekday": "wed",
+          "grammar": "Linking: in addition, on the other hand, as a result",
+          "speaking": "An AI tool you use: what it does well and badly",
+          "writing": "Review of an AI tool you use",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Linking: in addition, on the other hand, as a result",
+              "url": "https://www.youtube.com/results?search_query=Linking%3A%20in%20addition%2C%20on%20the%20other%20hand%2C%20as%20a%20result%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Large language model",
+              "url": "https://en.wikipedia.org/wiki/Large_language_model"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "weekday": "thu",
+          "grammar": "Describing trends: increase, drop, remain stable",
+          "speaking": "Describe any chart or graph from your coursework",
+          "writing": "Describe a chart: main trends and numbers",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Describing trends: increase, drop, remain stable",
+              "url": "https://www.youtube.com/results?search_query=Describing%20trends%3A%20increase%2C%20drop%2C%20remain%20stable%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "IELTS Writing Task 1: как описывать график",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20writing%20task%201%20line%20graph"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "weekday": "fri",
+          "grammar": "Comparing: as ... as, much more",
+          "speaking": "Compare two algorithms or models you know",
+          "writing": "Two approaches to one task: which is better and when",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Comparing: as ... as, much more",
+              "url": "https://www.youtube.com/results?search_query=Comparing%3A%20as%20...%20as%2C%20much%20more%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Linear regression",
+              "url": "https://en.wikipedia.org/wiki/Linear_regression"
+            },
+            {
+              "type": "Читать",
+              "title": "Decision tree learning",
+              "url": "https://en.wikipedia.org/wiki/Decision_tree_learning"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите одну тему недели",
+          "writing": "How AI will change your future job — 200 слов",
+          "materials": [
+            {
+              "type": "Читать",
+              "title": "Jay Alammar, «The Illustrated Transformer»",
+              "url": "https://jalammar.github.io/illustrated-transformer/"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "theme": "My master's plans",
+      "speakingLength": "2 мин",
+      "writingLength": "180–200 слов",
+      "days": [
+        {
+          "date": "2026-11-30",
+          "weekday": "mon",
+          "grammar": "Review: tenses",
+          "speaking": "Why you want to study for a master's abroad",
+          "writing": "Why a master's abroad",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Review: tenses",
+              "url": "https://www.youtube.com/results?search_query=Review%3A%20tenses%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "International student",
+              "url": "https://en.wikipedia.org/wiki/International_student"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-01",
+          "weekday": "tue",
+          "grammar": "Review: conditionals",
+          "speaking": "Which country you'd choose and why",
+          "writing": "Your choice of country and programme",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Review: conditionals",
+              "url": "https://www.youtube.com/results?search_query=Review%3A%20conditionals%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Education in Germany",
+              "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "weekday": "wed",
+          "grammar": "Review: articles",
+          "speaking": "Your research interests in AI",
+          "writing": "The area of AI you want to work in",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Review: articles",
+              "url": "https://www.youtube.com/results?search_query=Review%3A%20articles%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Reinforcement learning",
+              "url": "https://en.wikipedia.org/wiki/Reinforcement_learning"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "weekday": "thu",
+          "grammar": "Review: relative clauses",
+          "speaking": "Your strongest project and what you learned from it",
+          "writing": "Your strongest project for an admission committee",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Review: relative clauses",
+              "url": "https://www.youtube.com/results?search_query=Review%3A%20relative%20clauses%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Statement of purpose: советы для магистратуры",
+              "url": "https://www.youtube.com/results?search_query=statement%20of%20purpose%20tips%20master's"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-04",
+          "weekday": "fri",
+          "grammar": "Review: passive",
+          "speaking": "Your goals after graduation",
+          "writing": "Where you see yourself five years after the master's",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Review: passive",
+              "url": "https://www.youtube.com/results?search_query=Review%3A%20passive%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Research and development",
+              "url": "https://en.wikipedia.org/wiki/Research_and_development"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "weekday": "sat",
+          "grammar": "Контрольная точка",
+          "speaking": "Запишите 2 минуты «Why do you want to study abroad?» и сравните с 7 ноября",
+          "writing": "Черновик Statement of Purpose — 250–300 слов",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Как написать Statement of Purpose",
+              "url": "https://www.youtube.com/results?search_query=how%20to%20write%20a%20statement%20of%20purpose%20for%20masters"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "theme": "Education and work",
+      "speakingLength": "2 мин (IELTS)",
+      "writingLength": "эссе 200 слов",
+      "days": [
+        {
+          "date": "2026-12-07",
+          "weekday": "mon",
+          "grammar": "Opinion phrases: In my view, I'd argue that",
+          "speaking": "Should university education be free for everyone?",
+          "writing": "University education should be free. Agree or disagree?",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Opinion phrases: In my view, I'd argue that",
+              "url": "https://www.youtube.com/results?search_query=Opinion%20phrases%3A%20In%20my%20view%2C%20I'd%20argue%20that%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Free education",
+              "url": "https://en.wikipedia.org/wiki/Free_education"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-08",
+          "weekday": "tue",
+          "grammar": "Concession: although, despite, in spite of",
+          "speaking": "Is it better to study abroad or in your own country?",
+          "writing": "Studying abroad: advantages and disadvantages",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Concession: although, despite, in spite of",
+              "url": "https://www.youtube.com/results?search_query=Concession%3A%20although%2C%20despite%2C%20in%20spite%20of%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Student exchange program",
+              "url": "https://en.wikipedia.org/wiki/Student_exchange_program"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-09",
+          "weekday": "wed",
+          "grammar": "Cause and effect: due to, lead to, result in",
+          "speaking": "Will AI replace programmers?",
+          "writing": "AI will replace most programmers. Agree or disagree?",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Cause and effect: due to, lead to, result in",
+              "url": "https://www.youtube.com/results?search_query=Cause%20and%20effect%3A%20due%20to%2C%20lead%20to%2C%20result%20in%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "Заменит ли ИИ программистов: дискуссии",
+              "url": "https://www.youtube.com/results?search_query=will%20AI%20replace%20programmers%20debate"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-10",
+          "weekday": "thu",
+          "grammar": "Hedging: tend to, it is likely that",
+          "speaking": "Online or offline learning: which is more effective?",
+          "writing": "Online learning versus classroom learning",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Hedging: tend to, it is likely that",
+              "url": "https://www.youtube.com/results?search_query=Hedging%3A%20tend%20to%2C%20it%20is%20likely%20that%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Distance education",
+              "url": "https://en.wikipedia.org/wiki/Distance_education"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-11",
+          "weekday": "fri",
+          "grammar": "Hypothetical: would, could, might",
+          "speaking": "Should students work while studying?",
+          "writing": "Part-time jobs for students: good or bad?",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Hypothetical: would, could, might",
+              "url": "https://www.youtube.com/results?search_query=Hypothetical%3A%20would%2C%20could%2C%20might%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "IELTS Speaking Part 3: работа и учёба",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20speaking%20part%203%20work%20and%20study"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-12",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите тему среды",
+          "writing": "Перепишите эссе среды с учётом исправлений — 250 слов",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Writing Task 2: структура эссе-мнения",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20writing%20task%202%20opinion%20essay%20structure"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "theme": "Society and technology",
+      "speakingLength": "2 мин (IELTS)",
+      "writingLength": "эссе 220–250 слов",
+      "days": [
+        {
+          "date": "2026-12-14",
+          "weekday": "mon",
+          "grammar": "Formal and informal style",
+          "speaking": "Is social media good for young people?",
+          "writing": "Social media does more harm than good. Agree or disagree?",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Formal and informal style",
+              "url": "https://www.youtube.com/results?search_query=Formal%20and%20informal%20style%20English%20grammar%20explained"
+            },
+            {
+              "type": "Видео",
+              "title": "TED: соцсети и молодёжь",
+              "url": "https://www.youtube.com/results?search_query=TED%20talk%20social%20media%20young%20people"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-15",
+          "weekday": "tue",
+          "grammar": "Emphasis: What I find important is...",
+          "speaking": "Should governments regulate AI?",
+          "writing": "Governments should strictly control AI development",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Emphasis: What I find important is...",
+              "url": "https://www.youtube.com/results?search_query=Emphasis%3A%20What%20I%20find%20important%20is...%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Regulation of artificial intelligence",
+              "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-16",
+          "weekday": "wed",
+          "grammar": "Conditionals: unless, provided that, as long as",
+          "speaking": "Living in a big city or a small town?",
+          "writing": "Big cities offer a better quality of life",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Conditionals: unless, provided that, as long as",
+              "url": "https://www.youtube.com/results?search_query=Conditionals%3A%20unless%2C%20provided%20that%2C%20as%20long%20as%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Urbanization",
+              "url": "https://en.wikipedia.org/wiki/Urbanization"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-17",
+          "weekday": "thu",
+          "grammar": "Paraphrasing",
+          "speaking": "Do we still need to learn languages if AI can translate?",
+          "writing": "Learning foreign languages is no longer necessary",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Paraphrasing",
+              "url": "https://www.youtube.com/results?search_query=Paraphrasing%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Machine translation",
+              "url": "https://en.wikipedia.org/wiki/Machine_translation"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-18",
+          "weekday": "fri",
+          "grammar": "Giving examples: for instance, a good example is",
+          "speaking": "Teamwork or working alone: which is more productive?",
+          "writing": "Teamwork versus individual work",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "Грамматика дня: Giving examples: for instance, a good example is",
+              "url": "https://www.youtube.com/results?search_query=Giving%20examples%3A%20for%20instance%2C%20a%20good%20example%20is%20English%20grammar%20explained"
+            },
+            {
+              "type": "Читать",
+              "title": "Teamwork",
+              "url": "https://en.wikipedia.org/wiki/Teamwork"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-19",
+          "weekday": "sat",
+          "grammar": "Повторение",
+          "speaking": "Перезапишите одну тему недели",
+          "writing": "Эссе на тему, которая далась тяжелее всего — 250 слов",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS: эссе на band 7 с разбором",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20writing%20task%202%20band%207%20essay%20example"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "theme": "Mock test",
+      "speakingLength": "пробный экзамен",
+      "writingLength": "на время",
+      "days": [
+        {
+          "date": "2026-12-21",
+          "weekday": "mon",
+          "grammar": "Пробный экзамен",
+          "speaking": "Speaking Part 1: 10 коротких вопросов о вас от ИИ-ассистента, 15 мин",
+          "writing": "—",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Speaking Part 1: полный тест",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20speaking%20part%201%20full%20test"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-22",
+          "weekday": "tue",
+          "grammar": "Пробный экзамен",
+          "speaking": "Speaking Part 2: «Describe a skill you learned recently», 1 мин подготовки, 2 мин речи",
+          "writing": "—",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Speaking Part 2: cue card",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20speaking%20part%202%20cue%20card%20band%208"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-23",
+          "weekday": "wed",
+          "grammar": "Пробный экзамен",
+          "speaking": "Speaking Part 3: «Technology and education», 5 вопросов от ИИ-ассистента",
+          "writing": "—",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Speaking Part 3: пример",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20speaking%20part%203%20sample"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-24",
+          "weekday": "thu",
+          "grammar": "Пробный экзамен",
+          "speaking": "—",
+          "writing": "Writing Task 2: «Some people think AI will make education unnecessary. Discuss both views and give your opinion.» 250 слов, 40 мин",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Writing Task 2: эссе band 9",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20writing%20task%202%20band%209%20sample"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-25",
+          "weekday": "fri",
+          "grammar": "Пробный экзамен",
+          "speaking": "—",
+          "writing": "Writing Task 1: опишите любой график, 150 слов, 20 мин",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Writing Task 1: пример band 9",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20writing%20task%201%20band%209%20sample"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        },
+        {
+          "date": "2026-12-26",
+          "weekday": "sat",
+          "grammar": "Финальная точка",
+          "speaking": "«Tell me about yourself», 2 минуты: сравните с записями 12 октября, 7 ноября и 5 декабря",
+          "writing": "—",
+          "materials": [
+            {
+              "type": "Видео",
+              "title": "IELTS Speaking: полный пробный тест",
+              "url": "https://www.youtube.com/results?search_query=IELTS%20speaking%20mock%20test%20full"
+            },
+            {
+              "type": "Слушать",
+              "title": "BBC 6 Minute English: следующий выпуск для shadowing",
+              "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

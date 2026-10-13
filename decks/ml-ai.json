@@ -1,0 +1,2818 @@
+{
+ "id": "ml-ai",
+ "title": "ML & AI English",
+ "notes": [
+  {
+   "id": "machine-learning",
+   "term": "machine learning",
+   "ipa": "/məˈʃiːn ˈlɝːnɪŋ/",
+   "pos": "noun",
+   "ru": "машинное обучение",
+   "definition": "A way of building programs that learn patterns from data instead of following hand-written rules.",
+   "example": "**Machine learning** lets your phone recognize faces without anyone writing a rule for every face.",
+   "colloc": [
+    "apply machine learning to",
+    "an ML model",
+    "ML engineer"
+   ],
+   "note": "Сокращение ML читается /ˌem ˈel/.",
+   "img": "",
+   "emoji": "🤖",
+   "category": "ML basics",
+   "hint": "m______ l_______"
+  },
+  {
+   "id": "artificial-intelligence-ai",
+   "term": "artificial intelligence (AI)",
+   "ipa": "/ˌɑːrtɪˈfɪʃl ɪnˈtelɪdʒəns/",
+   "pos": "noun",
+   "ru": "искусственный интеллект",
+   "definition": "The field of making computers do tasks that normally require human intelligence.",
+   "example": "**AI** is already part of everyday tools like maps and translators.",
+   "colloc": [
+    "AI-powered",
+    "advances in AI",
+    "an AI system"
+   ],
+   "note": "AI читается /ˌeɪ ˈaɪ/. Без артикля: «AI is…», не «the AI is…» (если речь о сфере в целом).",
+   "img": "",
+   "emoji": "🧠",
+   "category": "ML basics",
+   "hint": "a_________ i___________"
+  },
+  {
+   "id": "dataset",
+   "term": "dataset",
+   "ipa": "/ˈdeɪtəset/",
+   "pos": "noun",
+   "ru": "набор данных, датасет",
+   "definition": "A collection of examples used to train or test a model.",
+   "example": "We collected a **dataset** of 10,000 labeled photos.",
+   "colloc": [
+    "a large / labeled / public dataset",
+    "build a dataset"
+   ],
+   "note": "data в ML часто неисчисляемое: the data is… (в научных текстах встречается и the data are…).",
+   "img": "",
+   "emoji": "🗂️",
+   "category": "ML basics",
+   "hint": "d______"
+  },
+  {
+   "id": "data-point",
+   "term": "data point",
+   "ipa": "/ˈdeɪtə pɔɪnt/",
+   "pos": "noun",
+   "ru": "одно наблюдение, точка данных",
+   "definition": "One single example in a dataset.",
+   "example": "Each **data point** represents one customer.",
+   "colloc": [],
+   "note": "Синонимы: sample, example, instance.",
+   "img": "mlai_outlier.png",
+   "emoji": "📍",
+   "category": "ML basics",
+   "hint": "d___ p____"
+  },
+  {
+   "id": "feature",
+   "term": "feature",
+   "ipa": "/ˈfiːtʃər/",
+   "pos": "noun",
+   "ru": "признак",
+   "definition": "A measurable property of the input that a model uses to make predictions.",
+   "example": "Age and income turned out to be the most important **features**.",
+   "colloc": [
+    "extract features",
+    "input features",
+    "feature importance"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📏",
+   "category": "ML basics",
+   "hint": "f______"
+  },
+  {
+   "id": "label",
+   "term": "label",
+   "ipa": "/ˈleɪbl/",
+   "pos": "noun / verb",
+   "ru": "метка, правильный ответ; размечать",
+   "definition": "The correct answer attached to a training example.",
+   "example": "Every email in the training set has a **label**: spam or not spam.",
+   "colloc": [
+    "label data",
+    "class label",
+    "noisy labels"
+   ],
+   "note": "",
+   "img": "mlai_supervised.png",
+   "emoji": "🏷️",
+   "category": "ML basics",
+   "hint": "l____"
+  },
+  {
+   "id": "ground-truth",
+   "term": "ground truth",
+   "ipa": "/ˌɡraʊnd ˈtruːθ/",
+   "pos": "noun",
+   "ru": "эталонные (истинные) значения",
+   "definition": "The real, verified answers that a model's predictions are compared with.",
+   "example": "We compared the predictions with the **ground truth** annotated by doctors.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "✅",
+   "category": "ML basics",
+   "hint": "g_____ t____"
+  },
+  {
+   "id": "model",
+   "term": "model",
+   "ipa": "/ˈmɑːdl/",
+   "pos": "noun",
+   "ru": "модель",
+   "definition": "A mathematical function learned from data that turns inputs into predictions.",
+   "example": "The **model** predicts house prices from size and location.",
+   "colloc": [
+    "build / train / deploy a model",
+    "a pre-trained model"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧩",
+   "category": "ML basics",
+   "hint": "m____"
+  },
+  {
+   "id": "algorithm",
+   "term": "algorithm",
+   "ipa": "/ˈælɡərɪðəm/",
+   "pos": "noun",
+   "ru": "алгоритм",
+   "definition": "A step-by-step procedure; in ML, the method used to learn a model from data.",
+   "example": "Random forest is a popular **algorithm** for tabular data.",
+   "colloc": [],
+   "note": "Ударение на первый слог: AL-go-ri-thm. Не путать с logarithm.",
+   "img": "",
+   "emoji": "⚙️",
+   "category": "ML basics",
+   "hint": "a________"
+  },
+  {
+   "id": "prediction",
+   "term": "prediction",
+   "ipa": "/prɪˈdɪkʃn/",
+   "pos": "noun",
+   "ru": "предсказание, прогноз",
+   "definition": "The output a model gives for a new input.",
+   "example": "The model's **predictions** were correct 92% of the time.",
+   "colloc": [
+    "make a prediction",
+    "accurate predictions",
+    "predict (v)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🔮",
+   "category": "ML basics",
+   "hint": "p_________"
+  },
+  {
+   "id": "supervised-learning",
+   "term": "supervised learning",
+   "ipa": "/ˈsuːpərvaɪzd ˈlɝːnɪŋ/",
+   "pos": "noun",
+   "ru": "обучение с учителем",
+   "definition": "Learning from examples that come with correct answers (labels).",
+   "example": "Spam filtering is a classic **supervised learning** task.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_supervised.png",
+   "emoji": "👩‍🏫",
+   "category": "ML basics",
+   "hint": "s_________ l_______"
+  },
+  {
+   "id": "unsupervised-learning",
+   "term": "unsupervised learning",
+   "ipa": "/ʌnˈsuːpərvaɪzd ˈlɝːnɪŋ/",
+   "pos": "noun",
+   "ru": "обучение без учителя",
+   "definition": "Finding structure in data that has no labels.",
+   "example": "We used **unsupervised learning** to group customers by their behavior.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_supervised.png",
+   "emoji": "🔍",
+   "category": "ML basics",
+   "hint": "u___________ l_______"
+  },
+  {
+   "id": "reinforcement-learning",
+   "term": "reinforcement learning",
+   "ipa": "/ˌriːɪnˈfɔːrsmənt ˈlɝːnɪŋ/",
+   "pos": "noun",
+   "ru": "обучение с подкреплением",
+   "definition": "An agent learns by trial and error, receiving rewards or penalties for its actions.",
+   "example": "AlphaGo was trained with **reinforcement learning**.",
+   "colloc": [
+    "agent",
+    "environment",
+    "reward"
+   ],
+   "note": "",
+   "img": "mlai_rl.png",
+   "emoji": "🎮",
+   "category": "ML basics",
+   "hint": "r____________ l_______"
+  },
+  {
+   "id": "classification",
+   "term": "classification",
+   "ipa": "/ˌklæsɪfɪˈkeɪʃn/",
+   "pos": "noun",
+   "ru": "классификация",
+   "definition": "Predicting which category an input belongs to.",
+   "example": "Deciding whether a tumor is benign or malignant is a **classification** problem.",
+   "colloc": [
+    "binary / multi-class classification",
+    "classifier"
+   ],
+   "note": "",
+   "img": "mlai_classification.png",
+   "emoji": "🗃️",
+   "category": "ML basics",
+   "hint": "c_____________"
+  },
+  {
+   "id": "regression",
+   "term": "regression",
+   "ipa": "/rɪˈɡreʃn/",
+   "pos": "noun",
+   "ru": "регрессия",
+   "definition": "Predicting a continuous number, such as a price or a temperature.",
+   "example": "We used **regression** to estimate the price of an apartment.",
+   "colloc": [
+    "linear regression",
+    "regression model"
+   ],
+   "note": "",
+   "img": "mlai_regression.png",
+   "emoji": "📈",
+   "category": "ML basics",
+   "hint": "r_________"
+  },
+  {
+   "id": "clustering",
+   "term": "clustering",
+   "ipa": "/ˈklʌstərɪŋ/",
+   "pos": "noun",
+   "ru": "кластеризация",
+   "definition": "Grouping similar data points together without using labels.",
+   "example": "**Clustering** revealed three distinct types of users.",
+   "colloc": [
+    "k-means clustering",
+    "cluster (n, v)"
+   ],
+   "note": "",
+   "img": "mlai_clustering.png",
+   "emoji": "🫧",
+   "category": "ML basics",
+   "hint": "c_________"
+  },
+  {
+   "id": "dimensionality-reduction",
+   "term": "dimensionality reduction",
+   "ipa": "/dɪˌmenʃəˈnæləti rɪˈdʌkʃn/",
+   "pos": "noun",
+   "ru": "снижение размерности",
+   "definition": "Compressing data into fewer features while keeping the important information.",
+   "example": "PCA is a common **dimensionality reduction** technique.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_dimred.png",
+   "emoji": "🗜️",
+   "category": "ML basics",
+   "hint": "d_____________ r________"
+  },
+  {
+   "id": "outlier",
+   "term": "outlier",
+   "ipa": "/ˈaʊtlaɪər/",
+   "pos": "noun",
+   "ru": "выброс",
+   "definition": "A data point that is very different from all the others.",
+   "example": "One **outlier** — an apartment priced at $10 million — distorted the average.",
+   "colloc": [
+    "detect / remove outliers",
+    "robust to outliers"
+   ],
+   "note": "",
+   "img": "mlai_outlier.png",
+   "emoji": "🦄",
+   "category": "ML basics",
+   "hint": "o______"
+  },
+  {
+   "id": "noise",
+   "term": "noise",
+   "ipa": "/nɔɪz/",
+   "pos": "noun",
+   "ru": "шум (в данных)",
+   "definition": "Random errors or irrelevant variation in data.",
+   "example": "Real-world data is full of **noise**.",
+   "colloc": [
+    "noisy data",
+    "noisy labels"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📻",
+   "category": "ML basics",
+   "hint": "n____"
+  },
+  {
+   "id": "training-set",
+   "term": "training set",
+   "ipa": "/ˈtreɪnɪŋ set/",
+   "pos": "noun",
+   "ru": "обучающая выборка",
+   "definition": "The part of the data that the model learns from.",
+   "example": "We used 60% of the data as the **training set**.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_split.png",
+   "emoji": "🏋️",
+   "category": "ML basics",
+   "hint": "t_______ s__"
+  },
+  {
+   "id": "validation-set",
+   "term": "validation set",
+   "ipa": "/ˌvælɪˈdeɪʃn set/",
+   "pos": "noun",
+   "ru": "валидационная выборка",
+   "definition": "Data held out to tune settings and choose the best model.",
+   "example": "Accuracy on the **validation set** stopped improving after ten epochs.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_split.png",
+   "emoji": "🎛️",
+   "category": "ML basics",
+   "hint": "v_________ s__"
+  },
+  {
+   "id": "test-set",
+   "term": "test set",
+   "ipa": "/ˈtest set/",
+   "pos": "noun",
+   "ru": "тестовая выборка",
+   "definition": "Data the model never sees during training, used only for the final evaluation.",
+   "example": "Never use the **test set** to tune your model.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_split.png",
+   "emoji": "🧪",
+   "category": "ML basics",
+   "hint": "t___ s__"
+  },
+  {
+   "id": "overfitting",
+   "term": "overfitting",
+   "ipa": "/ˌoʊvərˈfɪtɪŋ/",
+   "pos": "noun",
+   "ru": "переобучение",
+   "definition": "When a model memorizes the training data, including its noise, and fails on new data.",
+   "example": "99% on training data but 60% on new data — classic **overfitting**.",
+   "colloc": [
+    "prone to overfitting",
+    "prevent / reduce overfitting",
+    "overfit (v)"
+   ],
+   "note": "",
+   "img": "mlai_fit.png",
+   "emoji": "🎯",
+   "category": "ML basics",
+   "hint": "o__________"
+  },
+  {
+   "id": "underfitting",
+   "term": "underfitting",
+   "ipa": "/ˌʌndərˈfɪtɪŋ/",
+   "pos": "noun",
+   "ru": "недообучение",
+   "definition": "When a model is too simple to capture the real pattern in the data.",
+   "example": "A straight line can't follow this curve, so the model is **underfitting**.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_fit.png",
+   "emoji": "📉",
+   "category": "ML basics",
+   "hint": "u___________"
+  },
+  {
+   "id": "generalize",
+   "term": "generalize",
+   "ipa": "/ˈdʒenrəlaɪz/",
+   "pos": "verb",
+   "ru": "обобщать (хорошо работать на новых данных)",
+   "definition": "To perform well on new data that the model has never seen.",
+   "example": "A good model **generalizes** to data it has never seen.",
+   "colloc": [
+    "generalize well",
+    "generalize to unseen data",
+    "generalization (n)"
+   ],
+   "note": "Британское написание — generalise.",
+   "img": "mlai_fit.png",
+   "emoji": "🌍",
+   "category": "ML basics",
+   "hint": "g_________"
+  },
+  {
+   "id": "bias-variance-trade-off",
+   "term": "bias-variance trade-off",
+   "ipa": "/ˈbaɪəs ˈveriəns ˈtreɪd ɔːf/",
+   "pos": "noun",
+   "ru": "компромисс между смещением и разбросом",
+   "definition": "Too simple a model makes systematic errors (high bias); too complex a model is unstable (high variance). You balance the two.",
+   "example": "Choosing the depth of the tree is all about the **bias-variance trade-off**.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_biasvar.png",
+   "emoji": "⚖️",
+   "category": "ML basics",
+   "hint": "b___-v_______ t____-o__"
+  },
+  {
+   "id": "data-leakage",
+   "term": "data leakage",
+   "ipa": "/ˈdeɪtə ˈliːkɪdʒ/",
+   "pos": "noun",
+   "ru": "утечка данных",
+   "definition": "When information from the test data accidentally gets into training, making results look better than they really are.",
+   "example": "The suspiciously high score was caused by **data leakage**.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_leakage.png",
+   "emoji": "🚰",
+   "category": "ML basics",
+   "hint": "d___ l______"
+  },
+  {
+   "id": "feature-engineering",
+   "term": "feature engineering",
+   "ipa": "/ˈfiːtʃər ˌendʒɪˈnɪrɪŋ/",
+   "pos": "noun",
+   "ru": "конструирование признаков",
+   "definition": "Creating useful input variables from raw data by hand.",
+   "example": "Good **feature engineering** often matters more than the choice of algorithm.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🛠️",
+   "category": "ML basics",
+   "hint": "f______ e__________"
+  },
+  {
+   "id": "preprocessing",
+   "term": "preprocessing",
+   "ipa": "/ˌpriːˈprɑːsesɪŋ/",
+   "pos": "noun",
+   "ru": "предобработка данных",
+   "definition": "Cleaning and transforming raw data before training.",
+   "example": "**Preprocessing** took longer than training the model itself.",
+   "colloc": [
+    "data preprocessing",
+    "preprocess (v)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧹",
+   "category": "ML basics",
+   "hint": "p____________"
+  },
+  {
+   "id": "baseline",
+   "term": "baseline",
+   "ipa": "/ˈbeɪslaɪn/",
+   "pos": "noun",
+   "ru": "базовое решение (точка отсчёта)",
+   "definition": "A simple model used as a reference point to compare other models against.",
+   "example": "Our neural network beat the **baseline** by 5%.",
+   "colloc": [
+    "a strong / simple baseline",
+    "compare against a baseline"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📐",
+   "category": "ML basics",
+   "hint": "b_______"
+  },
+  {
+   "id": "train-a-model",
+   "term": "train a model",
+   "ipa": "/treɪn ə ˈmɑːdl/",
+   "pos": "collocation",
+   "ru": "обучать модель",
+   "definition": "To let a model learn its parameters from data.",
+   "example": "It took two days to **train the model** on a single GPU.",
+   "colloc": [
+    "train on data",
+    "training run",
+    "trained model"
+   ],
+   "note": "Модель именно train, а не teach.",
+   "img": "",
+   "emoji": "🏃",
+   "category": "Training",
+   "hint": "t____ a m____"
+  },
+  {
+   "id": "parameter",
+   "term": "parameter",
+   "ipa": "/pəˈræmɪtər/",
+   "pos": "noun",
+   "ru": "параметр (обучаемый)",
+   "definition": "A value the model learns during training, such as a weight.",
+   "example": "GPT-3 has 175 billion **parameters**.",
+   "colloc": [
+    "number of parameters",
+    "parameter count"
+   ],
+   "note": "Ударение: pa-RA-me-ter.",
+   "img": "",
+   "emoji": "🔢",
+   "category": "Training",
+   "hint": "p________"
+  },
+  {
+   "id": "hyperparameter",
+   "term": "hyperparameter",
+   "ipa": "/ˌhaɪpərpəˈræmɪtər/",
+   "pos": "noun",
+   "ru": "гиперпараметр",
+   "definition": "A setting you choose before training, such as the learning rate or the number of layers.",
+   "example": "We spent a week tuning **hyperparameters**.",
+   "colloc": [
+    "tune / search hyperparameters",
+    "hyperparameter search"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎚️",
+   "category": "Training",
+   "hint": "h_____________"
+  },
+  {
+   "id": "loss-function",
+   "term": "loss function",
+   "ipa": "/ˈlɔːs ˌfʌŋkʃn/",
+   "pos": "noun",
+   "ru": "функция потерь",
+   "definition": "A formula that measures how wrong the model's predictions are.",
+   "example": "Training means minimizing the **loss function**.",
+   "colloc": [
+    "minimize the loss",
+    "cross-entropy loss",
+    "training loss"
+   ],
+   "note": "",
+   "img": "mlai_losscurve.png",
+   "emoji": "📉",
+   "category": "Training",
+   "hint": "l___ f_______"
+  },
+  {
+   "id": "gradient-descent",
+   "term": "gradient descent",
+   "ipa": "/ˈɡreɪdiənt dɪˈsent/",
+   "pos": "noun",
+   "ru": "градиентный спуск",
+   "definition": "An optimization method that repeatedly takes small steps downhill on the loss surface.",
+   "example": "**Gradient descent** slowly moves the weights toward the minimum.",
+   "colloc": [
+    "stochastic gradient descent (SGD)"
+   ],
+   "note": "descent (спуск) ≠ decent (приличный).",
+   "img": "mlai_gd.png",
+   "emoji": "⛷️",
+   "category": "Training",
+   "hint": "g_______ d______"
+  },
+  {
+   "id": "learning-rate",
+   "term": "learning rate",
+   "ipa": "/ˈlɝːnɪŋ reɪt/",
+   "pos": "noun",
+   "ru": "скорость обучения (шаг)",
+   "definition": "How big each step of gradient descent is.",
+   "example": "If the **learning rate** is too high, training becomes unstable.",
+   "colloc": [
+    "a high / low learning rate",
+    "learning rate schedule"
+   ],
+   "note": "",
+   "img": "mlai_lr.png",
+   "emoji": "👣",
+   "category": "Training",
+   "hint": "l_______ r___"
+  },
+  {
+   "id": "epoch",
+   "term": "epoch",
+   "ipa": "/ˈepək/",
+   "pos": "noun",
+   "ru": "эпоха",
+   "definition": "One full pass through the whole training dataset.",
+   "example": "We trained the network for 50 **epochs**.",
+   "colloc": [],
+   "note": "Британский вариант — /ˈiːpɒk/.",
+   "img": "mlai_batches.png",
+   "emoji": "🔁",
+   "category": "Training",
+   "hint": "e____"
+  },
+  {
+   "id": "batch",
+   "term": "batch",
+   "ipa": "/bætʃ/",
+   "pos": "noun",
+   "ru": "батч, пакет примеров",
+   "definition": "A small group of examples processed together in one training step.",
+   "example": "With a **batch** size of 32, one epoch takes 300 steps.",
+   "colloc": [
+    "batch size",
+    "mini-batch"
+   ],
+   "note": "",
+   "img": "mlai_batches.png",
+   "emoji": "📦",
+   "category": "Training",
+   "hint": "b____"
+  },
+  {
+   "id": "converge",
+   "term": "converge",
+   "ipa": "/kənˈvɝːdʒ/",
+   "pos": "verb",
+   "ru": "сходиться",
+   "definition": "(Of training) to settle at a stable, low value of the loss.",
+   "example": "After 20 epochs the loss finally **converged**.",
+   "colloc": [
+    "converge quickly",
+    "fail to converge",
+    "convergence (n)"
+   ],
+   "note": "",
+   "img": "mlai_gd.png",
+   "emoji": "🎯",
+   "category": "Training",
+   "hint": "c_______"
+  },
+  {
+   "id": "optimizer",
+   "term": "optimizer",
+   "ipa": "/ˈɑːptɪmaɪzər/",
+   "pos": "noun",
+   "ru": "оптимизатор",
+   "definition": "The algorithm that updates the weights during training, for example Adam or SGD.",
+   "example": "Switching the **optimizer** to Adam sped up training.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🔧",
+   "category": "Training",
+   "hint": "o________"
+  },
+  {
+   "id": "regularization",
+   "term": "regularization",
+   "ipa": "/ˌreɡjələrəˈzeɪʃn/",
+   "pos": "noun",
+   "ru": "регуляризация",
+   "definition": "Techniques that stop a model from becoming too complex, in order to fight overfitting.",
+   "example": "We added **regularization**, and the validation error dropped.",
+   "colloc": [
+    "L2 regularization",
+    "weight decay"
+   ],
+   "note": "",
+   "img": "mlai_fit.png",
+   "emoji": "🪢",
+   "category": "Training",
+   "hint": "r_____________"
+  },
+  {
+   "id": "early-stopping",
+   "term": "early stopping",
+   "ipa": "/ˈɝːli ˈstɑːpɪŋ/",
+   "pos": "noun",
+   "ru": "ранняя остановка",
+   "definition": "Stopping training as soon as performance on validation data stops improving.",
+   "example": "**Early stopping** saved us from overfitting.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_losscurve.png",
+   "emoji": "🛑",
+   "category": "Training",
+   "hint": "e____ s_______"
+  },
+  {
+   "id": "cross-validation",
+   "term": "cross-validation",
+   "ipa": "/ˌkrɔːs vælɪˈdeɪʃn/",
+   "pos": "noun",
+   "ru": "кросс-валидация",
+   "definition": "Splitting the data into k parts and training k times, each time testing on a different part.",
+   "example": "We used five-fold **cross-validation** to get a reliable estimate.",
+   "colloc": [
+    "k-fold cross-validation"
+   ],
+   "note": "",
+   "img": "mlai_cv.png",
+   "emoji": "🔄",
+   "category": "Training",
+   "hint": "c____-v_________"
+  },
+  {
+   "id": "backpropagation",
+   "term": "backpropagation",
+   "ipa": "/ˌbækprɑːpəˈɡeɪʃn/",
+   "pos": "noun",
+   "ru": "обратное распространение ошибки",
+   "definition": "The method that calculates how much each weight contributed to the error, going backward through the network.",
+   "example": "**Backpropagation** sends the error signal backward through the layers.",
+   "colloc": [
+    "backprop (informal)"
+   ],
+   "note": "",
+   "img": "mlai_nn.png",
+   "emoji": "↩️",
+   "category": "Training",
+   "hint": "b______________"
+  },
+  {
+   "id": "fine-tune",
+   "term": "fine-tune",
+   "ipa": "/ˌfaɪn ˈtuːn/",
+   "pos": "verb",
+   "ru": "дообучать",
+   "definition": "To train an already trained model a little more on your own, specific data.",
+   "example": "We **fine-tuned** a pre-trained model on medical texts.",
+   "colloc": [
+    "fine-tune on",
+    "fine-tuning (n)"
+   ],
+   "note": "",
+   "img": "mlai_transfer.png",
+   "emoji": "🎻",
+   "category": "Training",
+   "hint": "f___-t___"
+  },
+  {
+   "id": "pre-training",
+   "term": "pre-training",
+   "ipa": "/ˌpriːˈtreɪnɪŋ/",
+   "pos": "noun",
+   "ru": "предобучение",
+   "definition": "The first, large-scale stage of training on huge amounts of general data.",
+   "example": "**Pre-training** on web text gives the model broad general knowledge.",
+   "colloc": [
+    "pre-trained model"
+   ],
+   "note": "",
+   "img": "mlai_transfer.png",
+   "emoji": "📚",
+   "category": "Training",
+   "hint": "p__-t_______"
+  },
+  {
+   "id": "transfer-learning",
+   "term": "transfer learning",
+   "ipa": "/ˈtrænsfɝː ˈlɝːnɪŋ/",
+   "pos": "noun",
+   "ru": "перенос обучения",
+   "definition": "Reusing knowledge learned on one task to solve another task.",
+   "example": "Thanks to **transfer learning**, we needed only 500 labeled images.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_transfer.png",
+   "emoji": "🔀",
+   "category": "Training",
+   "hint": "t_______ l_______"
+  },
+  {
+   "id": "compute",
+   "term": "compute",
+   "ipa": "/kəmˈpjuːt/",
+   "pos": "noun (jargon)",
+   "ru": "вычислительные ресурсы",
+   "definition": "(ML slang) computing power: GPUs, time and money.",
+   "example": "Training frontier models requires an enormous amount of **compute**.",
+   "colloc": [
+    "training compute",
+    "a compute budget"
+   ],
+   "note": "Как существительное — жаргон; в эссе лучше computational resources. Часто произносят /ˈkɑːmpjuːt/.",
+   "img": "mlai_scaling.png",
+   "emoji": "🖥️",
+   "category": "Training",
+   "hint": "c______"
+  },
+  {
+   "id": "scale-up",
+   "term": "scale up",
+   "ipa": "/ˌskeɪl ˈʌp/",
+   "pos": "phrasal verb",
+   "ru": "масштабировать, наращивать",
+   "definition": "To make something bigger: more data, more parameters, more compute.",
+   "example": "Performance kept improving as we **scaled up** the model.",
+   "colloc": [
+    "scale up / scale down",
+    "at scale",
+    "scaling (n)"
+   ],
+   "note": "",
+   "img": "mlai_scaling.png",
+   "emoji": "📶",
+   "category": "Training",
+   "hint": "s____ u_"
+  },
+  {
+   "id": "inference",
+   "term": "inference",
+   "ipa": "/ˈɪnfərəns/",
+   "pos": "noun",
+   "ru": "инференс (применение обученной модели)",
+   "definition": "Using a trained model to make predictions on new inputs.",
+   "example": "**Inference** is much cheaper than training.",
+   "colloc": [
+    "at inference time",
+    "inference cost",
+    "run inference"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "⚡",
+   "category": "Training",
+   "hint": "i________"
+  },
+  {
+   "id": "accuracy",
+   "term": "accuracy",
+   "ipa": "/ˈækjərəsi/",
+   "pos": "noun",
+   "ru": "доля верных ответов (accuracy)",
+   "definition": "The percentage of predictions that are correct.",
+   "example": "**Accuracy** can be misleading when one class is very rare.",
+   "colloc": [
+    "high / low accuracy",
+    "improve accuracy"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎯",
+   "category": "Evaluation",
+   "hint": "a_______"
+  },
+  {
+   "id": "precision",
+   "term": "precision",
+   "ipa": "/prɪˈsɪʒn/",
+   "pos": "noun",
+   "ru": "точность (precision)",
+   "definition": "Of all the items the model flagged as positive, the share that really are positive.",
+   "example": "High **precision** means few false alarms.",
+   "colloc": [
+    "precision and recall"
+   ],
+   "note": "",
+   "img": "mlai_prec.png",
+   "emoji": "🔬",
+   "category": "Evaluation",
+   "hint": "p________"
+  },
+  {
+   "id": "recall",
+   "term": "recall",
+   "ipa": "/ˈriːkɔːl/",
+   "pos": "noun",
+   "ru": "полнота (recall)",
+   "definition": "Of all the real positive cases, the share the model managed to find.",
+   "example": "For cancer screening, **recall** matters more than precision.",
+   "colloc": [
+    "high recall",
+    "trade precision for recall"
+   ],
+   "note": "Существительное: RE-call; глагол «вспоминать»: re-CALL.",
+   "img": "mlai_prec.png",
+   "emoji": "🕵️",
+   "category": "Evaluation",
+   "hint": "r_____"
+  },
+  {
+   "id": "f1-score",
+   "term": "F1 score",
+   "ipa": "/ˌef ˈwʌn skɔːr/",
+   "pos": "noun",
+   "ru": "F1-мера",
+   "definition": "A single number that balances precision and recall (their harmonic mean).",
+   "example": "We report the **F1 score** because the classes are imbalanced.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🧮",
+   "category": "Evaluation",
+   "hint": "F1 s____"
+  },
+  {
+   "id": "confusion-matrix",
+   "term": "confusion matrix",
+   "ipa": "/kənˈfjuːʒn ˈmeɪtrɪks/",
+   "pos": "noun",
+   "ru": "матрица ошибок",
+   "definition": "A table showing correct and incorrect predictions for each class.",
+   "example": "The **confusion matrix** showed that the model often mixed up cats and foxes.",
+   "colloc": [],
+   "note": "Множественное число: matrices /ˈmeɪtrɪsiːz/.",
+   "img": "mlai_cm.png",
+   "emoji": "🔲",
+   "category": "Evaluation",
+   "hint": "c________ m_____"
+  },
+  {
+   "id": "false-positive",
+   "term": "false positive",
+   "ipa": "/ˌfɔːls ˈpɑːzətɪv/",
+   "pos": "noun",
+   "ru": "ложноположительный результат",
+   "definition": "The model says “yes”, but the true answer is “no”.",
+   "example": "A **false positive** in spam filtering means a real email ends up in the spam folder.",
+   "colloc": [
+    "false alarm (синоним в речи)"
+   ],
+   "note": "",
+   "img": "mlai_cm.png",
+   "emoji": "🚨",
+   "category": "Evaluation",
+   "hint": "f____ p_______"
+  },
+  {
+   "id": "false-negative",
+   "term": "false negative",
+   "ipa": "/ˌfɔːls ˈneɡətɪv/",
+   "pos": "noun",
+   "ru": "ложноотрицательный результат",
+   "definition": "The model says “no”, but the true answer is “yes”.",
+   "example": "In medicine, a **false negative** is dangerous: the disease is missed.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_cm.png",
+   "emoji": "🙈",
+   "category": "Evaluation",
+   "hint": "f____ n_______"
+  },
+  {
+   "id": "roc-curve",
+   "term": "ROC curve",
+   "ipa": "/ˌɑːr oʊ ˈsiː kɝːv/",
+   "pos": "noun",
+   "ru": "ROC-кривая",
+   "definition": "A plot of the true positive rate against the false positive rate at different thresholds.",
+   "example": "The area under the **ROC curve** (AUC) was 0.91.",
+   "colloc": [
+    "AUC (area under the curve)"
+   ],
+   "note": "",
+   "img": "mlai_roc.png",
+   "emoji": "〰️",
+   "category": "Evaluation",
+   "hint": "R__ c____"
+  },
+  {
+   "id": "threshold",
+   "term": "threshold",
+   "ipa": "/ˈθreʃhoʊld/",
+   "pos": "noun",
+   "ru": "порог",
+   "definition": "The cut-off value above which a prediction counts as positive.",
+   "example": "Lowering the **threshold** increases recall but reduces precision.",
+   "colloc": [
+    "set / lower / raise the threshold",
+    "decision threshold"
+   ],
+   "note": "Пишется с одной h посередине: thres-hold.",
+   "img": "mlai_roc.png",
+   "emoji": "🚪",
+   "category": "Evaluation",
+   "hint": "t________"
+  },
+  {
+   "id": "metric",
+   "term": "metric",
+   "ipa": "/ˈmetrɪk/",
+   "pos": "noun",
+   "ru": "метрика",
+   "definition": "A number used to measure how good a model is.",
+   "example": "Choose your **metric** before you start the experiment.",
+   "colloc": [
+    "evaluation metric",
+    "report metrics"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📊",
+   "category": "Evaluation",
+   "hint": "m_____"
+  },
+  {
+   "id": "benchmark",
+   "term": "benchmark",
+   "ipa": "/ˈbentʃmɑːrk/",
+   "pos": "noun",
+   "ru": "бенчмарк, эталонный тест",
+   "definition": "A standard test or dataset used to compare different models.",
+   "example": "The new model tops several reasoning **benchmarks**.",
+   "colloc": [
+    "on a benchmark",
+    "benchmark results",
+    "benchmark (v)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🏁",
+   "category": "Evaluation",
+   "hint": "b________"
+  },
+  {
+   "id": "ablation-study",
+   "term": "ablation study",
+   "ipa": "/əˈbleɪʃn ˈstʌdi/",
+   "pos": "noun",
+   "ru": "абляционное исследование",
+   "definition": "An experiment in which you remove parts of a system to see what each part contributes.",
+   "example": "An **ablation study** showed that most of the gain came from the attention layer.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "✂️",
+   "category": "Evaluation",
+   "hint": "a_______ s____"
+  },
+  {
+   "id": "imbalanced-dataset",
+   "term": "imbalanced dataset",
+   "ipa": "/ɪmˈbælənst ˈdeɪtəset/",
+   "pos": "noun",
+   "ru": "несбалансированный датасет",
+   "definition": "A dataset in which one class is much rarer than the others.",
+   "example": "Fraud detection usually involves a highly **imbalanced dataset**.",
+   "colloc": [
+    "class imbalance"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "⚖️",
+   "category": "Evaluation",
+   "hint": "i_________ d______"
+  },
+  {
+   "id": "statistically-significant",
+   "term": "statistically significant",
+   "ipa": "/stəˌtɪstɪkli sɪɡˈnɪfɪkənt/",
+   "pos": "adjective",
+   "ru": "статистически значимый",
+   "definition": "Unlikely to be the result of pure chance.",
+   "example": "The improvement was small but **statistically significant**.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "📐",
+   "category": "Evaluation",
+   "hint": "s____________ s__________"
+  },
+  {
+   "id": "state-of-the-art-sota",
+   "term": "state-of-the-art (SOTA)",
+   "ipa": "/ˌsteɪt əv ði ˈɑːrt/",
+   "pos": "adjective / noun",
+   "ru": "передовой, лучший на сегодня",
+   "definition": "The best currently known results or methods.",
+   "example": "The model achieved **state-of-the-art** results on ImageNet.",
+   "colloc": [
+    "achieve SOTA",
+    "state-of-the-art performance"
+   ],
+   "note": "С дефисами — перед существительным: a state-of-the-art model.",
+   "img": "",
+   "emoji": "🏆",
+   "category": "Evaluation",
+   "hint": "s____-o_-t__-a__"
+  },
+  {
+   "id": "neural-network",
+   "term": "neural network",
+   "ipa": "/ˈnʊrəl ˈnetwɝːk/",
+   "pos": "noun",
+   "ru": "нейронная сеть",
+   "definition": "A model made of layers of connected units, loosely inspired by the brain.",
+   "example": "**Neural networks** power modern speech recognition.",
+   "colloc": [
+    "train a neural network",
+    "neural net (informal)"
+   ],
+   "note": "",
+   "img": "mlai_nn.png",
+   "emoji": "🕸️",
+   "category": "Deep learning",
+   "hint": "n_____ n______"
+  },
+  {
+   "id": "deep-learning",
+   "term": "deep learning",
+   "ipa": "/ˌdiːp ˈlɝːnɪŋ/",
+   "pos": "noun",
+   "ru": "глубокое обучение",
+   "definition": "Machine learning with neural networks that have many layers.",
+   "example": "**Deep learning** made huge progress in computer vision after 2012.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_nn.png",
+   "emoji": "🌊",
+   "category": "Deep learning",
+   "hint": "d___ l_______"
+  },
+  {
+   "id": "layer",
+   "term": "layer",
+   "ipa": "/ˈleɪər/",
+   "pos": "noun",
+   "ru": "слой",
+   "definition": "A group of units in a neural network that process data at the same stage.",
+   "example": "The network has three hidden **layers**.",
+   "colloc": [
+    "input / hidden / output layer"
+   ],
+   "note": "",
+   "img": "mlai_nn.png",
+   "emoji": "🥞",
+   "category": "Deep learning",
+   "hint": "l____"
+  },
+  {
+   "id": "weight",
+   "term": "weight",
+   "ipa": "/weɪt/",
+   "pos": "noun",
+   "ru": "вес",
+   "definition": "A number on a connection between neurons that the network learns during training.",
+   "example": "Training adjusts millions of **weights**.",
+   "colloc": [
+    "model weights",
+    "open weights"
+   ],
+   "note": "",
+   "img": "mlai_nn.png",
+   "emoji": "🏋️",
+   "category": "Deep learning",
+   "hint": "w_____"
+  },
+  {
+   "id": "activation-function",
+   "term": "activation function",
+   "ipa": "/ˌæktɪˈveɪʃn ˈfʌŋkʃn/",
+   "pos": "noun",
+   "ru": "функция активации",
+   "definition": "A non-linear function applied to a neuron's output, such as ReLU or sigmoid.",
+   "example": "Without an **activation function**, the whole network would be just a linear model.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_act.png",
+   "emoji": "💡",
+   "category": "Deep learning",
+   "hint": "a_________ f_______"
+  },
+  {
+   "id": "dropout",
+   "term": "dropout",
+   "ipa": "/ˈdrɑːpaʊt/",
+   "pos": "noun",
+   "ru": "дропаут",
+   "definition": "Randomly switching off some neurons during training to reduce overfitting.",
+   "example": "Adding **dropout** made the model more robust.",
+   "colloc": [
+    "dropout rate",
+    "apply dropout"
+   ],
+   "note": "",
+   "img": "mlai_dropout.png",
+   "emoji": "🕳️",
+   "category": "Deep learning",
+   "hint": "d______"
+  },
+  {
+   "id": "vanishing-gradient",
+   "term": "vanishing gradient",
+   "ipa": "/ˈvænɪʃɪŋ ˈɡreɪdiənt/",
+   "pos": "noun",
+   "ru": "затухающий градиент",
+   "definition": "A problem where the learning signal becomes tiny in early layers, so they barely learn.",
+   "example": "Very deep networks used to suffer from the **vanishing gradient** problem.",
+   "colloc": [
+    "exploding gradient (противоположная проблема)"
+   ],
+   "note": "",
+   "img": "mlai_vanish.png",
+   "emoji": "🌫️",
+   "category": "Deep learning",
+   "hint": "v________ g_______"
+  },
+  {
+   "id": "convolutional-neural-network-cnn",
+   "term": "convolutional neural network (CNN)",
+   "ipa": "/ˌkɑːnvəˈluːʃənl ˈnʊrəl ˈnetwɝːk/",
+   "pos": "noun",
+   "ru": "свёрточная нейросеть",
+   "definition": "A network that slides small filters over an image to detect patterns such as edges and shapes.",
+   "example": "**CNNs** are great at recognizing objects in photos.",
+   "colloc": [
+    "convolution",
+    "filter / kernel"
+   ],
+   "note": "",
+   "img": "mlai_conv.png",
+   "emoji": "🖼️",
+   "category": "Deep learning",
+   "hint": "c____________ n_____ n______"
+  },
+  {
+   "id": "embedding",
+   "term": "embedding",
+   "ipa": "/ɪmˈbedɪŋ/",
+   "pos": "noun",
+   "ru": "эмбеддинг, векторное представление",
+   "definition": "A list of numbers representing a word or an item, so that similar things end up close together.",
+   "example": "In the **embedding** space, “king” and “queen” are close to each other.",
+   "colloc": [
+    "word embeddings",
+    "embedding space",
+    "embed (v)"
+   ],
+   "note": "",
+   "img": "mlai_emb.png",
+   "emoji": "🧭",
+   "category": "Deep learning",
+   "hint": "e________"
+  },
+  {
+   "id": "attention",
+   "term": "attention",
+   "ipa": "/əˈtenʃn/",
+   "pos": "noun",
+   "ru": "механизм внимания",
+   "definition": "A mechanism that lets a model focus on the most relevant parts of the input.",
+   "example": "**Attention** helps the model link “it” to the right noun.",
+   "colloc": [
+    "self-attention",
+    "attention head",
+    "pay attention to"
+   ],
+   "note": "",
+   "img": "mlai_attn.png",
+   "emoji": "👀",
+   "category": "Deep learning",
+   "hint": "a________"
+  },
+  {
+   "id": "transformer",
+   "term": "transformer",
+   "ipa": "/trænsˈfɔːrmər/",
+   "pos": "noun",
+   "ru": "трансформер",
+   "definition": "A neural network architecture based on attention; the basis of modern language models.",
+   "example": "The **transformer** was introduced in the 2017 paper “Attention Is All You Need”.",
+   "colloc": [
+    "transformer-based",
+    "transformer architecture"
+   ],
+   "note": "",
+   "img": "mlai_transformer.png",
+   "emoji": "🔁",
+   "category": "Deep learning",
+   "hint": "t__________"
+  },
+  {
+   "id": "encoder-decoder",
+   "term": "encoder / decoder",
+   "ipa": "/ɪnˈkoʊdər/ /diːˈkoʊdər/",
+   "pos": "noun",
+   "ru": "энкодер / декодер",
+   "definition": "The first part turns the input into an internal representation; the second turns that representation into the output.",
+   "example": "In translation, the **encoder** reads the Russian sentence and the **decoder** writes the English one.",
+   "colloc": [
+    "encode / decode (v)"
+   ],
+   "note": "",
+   "img": "mlai_transformer.png",
+   "emoji": "🔐",
+   "category": "Deep learning",
+   "hint": "e______ / d______"
+  },
+  {
+   "id": "architecture",
+   "term": "architecture",
+   "ipa": "/ˈɑːrkɪtektʃər/",
+   "pos": "noun",
+   "ru": "архитектура (модели)",
+   "definition": "The overall structure of a model: its layers and how they are connected.",
+   "example": "The team proposed a new **architecture** for video generation.",
+   "colloc": [
+    "model architecture",
+    "novel architecture"
+   ],
+   "note": "Ударение на первый слог: AR-chi-tec-ture.",
+   "img": "",
+   "emoji": "🏗️",
+   "category": "Deep learning",
+   "hint": "a___________"
+  },
+  {
+   "id": "gpu",
+   "term": "GPU",
+   "ipa": "/ˌdʒiː piː ˈjuː/",
+   "pos": "noun",
+   "ru": "графический процессор, видеокарта",
+   "definition": "A processor that performs many calculations in parallel, ideal for training neural networks.",
+   "example": "We rented eight **GPUs** in the cloud.",
+   "colloc": [
+    "on a GPU",
+    "GPU cluster",
+    "GPU hours"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎮",
+   "category": "Deep learning",
+   "hint": "G__"
+  },
+  {
+   "id": "black-box",
+   "term": "black box",
+   "ipa": "/ˌblæk ˈbɑːks/",
+   "pos": "noun",
+   "ru": "чёрный ящик",
+   "definition": "A system whose inner workings are hard or impossible to understand.",
+   "example": "Deep neural networks are often criticized as **black boxes**.",
+   "colloc": [
+    "black-box model"
+   ],
+   "note": "",
+   "img": "mlai_blackbox.png",
+   "emoji": "⬛",
+   "category": "Deep learning",
+   "hint": "b____ b__"
+  },
+  {
+   "id": "under-the-hood",
+   "term": "under the hood",
+   "ipa": "/ˌʌndər ðə ˈhʊd/",
+   "pos": "idiom",
+   "ru": "«под капотом», внутри",
+   "definition": "In the internal workings of a machine or system.",
+   "example": "**Under the hood**, the chatbot is just predicting the next token.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🚗",
+   "category": "Deep learning",
+   "hint": "u____ t__ h___"
+  },
+  {
+   "id": "generative-ai",
+   "term": "generative AI",
+   "ipa": "/ˈdʒenərətɪv ˌeɪ ˈaɪ/",
+   "pos": "noun",
+   "ru": "генеративный ИИ",
+   "definition": "AI that creates new content: text, images, audio or code.",
+   "example": "**Generative AI** can draft an essay in seconds.",
+   "colloc": [
+    "GenAI",
+    "generate (v)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎨",
+   "category": "Deep learning",
+   "hint": "g_________ A_"
+  },
+  {
+   "id": "diffusion-model",
+   "term": "diffusion model",
+   "ipa": "/dɪˈfjuːʒn ˈmɑːdl/",
+   "pos": "noun",
+   "ru": "диффузионная модель",
+   "definition": "A model that generates images by gradually removing noise from random pixels.",
+   "example": "Most modern image generators are **diffusion models**.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🌀",
+   "category": "Deep learning",
+   "hint": "d________ m____"
+  },
+  {
+   "id": "multimodal",
+   "term": "multimodal",
+   "ipa": "/ˌmʌltiˈmoʊdl/",
+   "pos": "adjective",
+   "ru": "мультимодальный",
+   "definition": "Able to work with several types of data, for example text, images and audio.",
+   "example": "A **multimodal** model can describe what's in a photo.",
+   "colloc": [
+    "multimodal model",
+    "multimodal input"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🖇️",
+   "category": "Deep learning",
+   "hint": "m_________"
+  },
+  {
+   "id": "computer-vision",
+   "term": "computer vision",
+   "ipa": "/kəmˈpjuːtər ˈvɪʒn/",
+   "pos": "noun",
+   "ru": "компьютерное зрение",
+   "definition": "The field of teaching computers to understand images and video.",
+   "example": "Self-driving cars rely heavily on **computer vision**.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "👁️",
+   "category": "Deep learning",
+   "hint": "c_______ v_____"
+  },
+  {
+   "id": "natural-language-processing-nlp",
+   "term": "natural language processing (NLP)",
+   "ipa": "/ˈnætʃrəl ˈlæŋɡwɪdʒ ˈprɑːsesɪŋ/",
+   "pos": "noun",
+   "ru": "обработка естественного языка",
+   "definition": "The field of making computers understand and produce human language.",
+   "example": "Chatbots and machine translation are **NLP** applications.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "💬",
+   "category": "Deep learning",
+   "hint": "n______ l_______ p_________"
+  },
+  {
+   "id": "large-language-model-llm",
+   "term": "large language model (LLM)",
+   "ipa": "/ˌlɑːrdʒ ˈlæŋɡwɪdʒ ˈmɑːdl/",
+   "pos": "noun",
+   "ru": "большая языковая модель",
+   "definition": "A huge neural network trained on text to predict what comes next.",
+   "example": "An **LLM** can summarize a long article in seconds.",
+   "colloc": [],
+   "note": "LLM читается по буквам: /ˌel el ˈem/.",
+   "img": "",
+   "emoji": "📜",
+   "category": "LLMs & GenAI",
+   "hint": "l____ l_______ m____"
+  },
+  {
+   "id": "token",
+   "term": "token",
+   "ipa": "/ˈtoʊkən/",
+   "pos": "noun",
+   "ru": "токен",
+   "definition": "A small piece of text — a word or part of a word — that a language model processes.",
+   "example": "The sentence was split into twelve **tokens**.",
+   "colloc": [
+    "per token",
+    "tokens per second"
+   ],
+   "note": "",
+   "img": "mlai_tokens.png",
+   "emoji": "🧱",
+   "category": "LLMs & GenAI",
+   "hint": "t____"
+  },
+  {
+   "id": "tokenization",
+   "term": "tokenization",
+   "ipa": "/ˌtoʊkənəˈzeɪʃn/",
+   "pos": "noun",
+   "ru": "токенизация",
+   "definition": "Splitting text into small pieces that a model can process.",
+   "example": "**Tokenization** works differently for English and Russian.",
+   "colloc": [
+    "tokenizer",
+    "tokenize (v)"
+   ],
+   "note": "",
+   "img": "mlai_tokens.png",
+   "emoji": "✂️",
+   "category": "LLMs & GenAI",
+   "hint": "t___________"
+  },
+  {
+   "id": "context-window",
+   "term": "context window",
+   "ipa": "/ˈkɑːntekst ˈwɪndoʊ/",
+   "pos": "noun",
+   "ru": "контекстное окно",
+   "definition": "The maximum amount of text a model can take into account at once.",
+   "example": "The whole book didn't fit into the **context window**.",
+   "colloc": [
+    "a long context window",
+    "fit into the context"
+   ],
+   "note": "",
+   "img": "mlai_context.png",
+   "emoji": "🪟",
+   "category": "LLMs & GenAI",
+   "hint": "c______ w_____"
+  },
+  {
+   "id": "prompt",
+   "term": "prompt",
+   "ipa": "/prɑːmpt/",
+   "pos": "noun / verb",
+   "ru": "промпт, запрос к модели",
+   "definition": "The instruction or text you give to a language model.",
+   "example": "A clear **prompt** gives much better answers.",
+   "colloc": [
+    "write a prompt",
+    "system prompt",
+    "prompt the model (v)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "⌨️",
+   "category": "LLMs & GenAI",
+   "hint": "p_____"
+  },
+  {
+   "id": "prompt-engineering",
+   "term": "prompt engineering",
+   "ipa": "/prɑːmpt ˌendʒɪˈnɪrɪŋ/",
+   "pos": "noun",
+   "ru": "промпт-инжиниринг",
+   "definition": "Designing and refining instructions to get better results from a model.",
+   "example": "With careful **prompt engineering**, the answers became much more accurate.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🧑‍🔧",
+   "category": "LLMs & GenAI",
+   "hint": "p_____ e__________"
+  },
+  {
+   "id": "zero-shot-few-shot",
+   "term": "zero-shot / few-shot",
+   "ipa": "/ˌzɪroʊ ˈʃɑːt/ /ˌfjuː ˈʃɑːt/",
+   "pos": "adjective / adverb",
+   "ru": "без примеров / с несколькими примерами",
+   "definition": "Solving a task with no examples, or with just a few examples, given in the prompt.",
+   "example": "The model handled the task **zero-shot**, without a single example.",
+   "colloc": [
+    "few-shot prompting",
+    "zero-shot performance"
+   ],
+   "note": "",
+   "img": "mlai_fewshot.png",
+   "emoji": "🎯",
+   "category": "LLMs & GenAI",
+   "hint": "z___-s___ / f__-s___"
+  },
+  {
+   "id": "hallucination",
+   "term": "hallucination",
+   "ipa": "/həˌluːsɪˈneɪʃn/",
+   "pos": "noun",
+   "ru": "галлюцинация (выдуманный ответ)",
+   "definition": "When a model confidently makes up false information.",
+   "example": "The citation looked real, but it was a **hallucination**.",
+   "colloc": [
+    "hallucinate (v)",
+    "reduce hallucinations"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🫠",
+   "category": "LLMs & GenAI",
+   "hint": "h____________"
+  },
+  {
+   "id": "chain-of-thought",
+   "term": "chain of thought",
+   "ipa": "/ˌtʃeɪn əv ˈθɔːt/",
+   "pos": "noun",
+   "ru": "цепочка рассуждений",
+   "definition": "Asking a model to reason step by step before giving the final answer.",
+   "example": "**Chain-of-thought** prompting improved accuracy on math problems.",
+   "colloc": [
+    "chain-of-thought prompting",
+    "CoT"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🪜",
+   "category": "LLMs & GenAI",
+   "hint": "c____ o_ t______"
+  },
+  {
+   "id": "temperature",
+   "term": "temperature",
+   "ipa": "/ˈtemprətʃər/",
+   "pos": "noun",
+   "ru": "температура (параметр генерации)",
+   "definition": "A setting that controls how random or creative the model's output is.",
+   "example": "Use a low **temperature** for factual answers and a higher one for creative writing.",
+   "colloc": [
+    "set the temperature",
+    "sampling temperature"
+   ],
+   "note": "",
+   "img": "mlai_temp.png",
+   "emoji": "🌡️",
+   "category": "LLMs & GenAI",
+   "hint": "t__________"
+  },
+  {
+   "id": "retrieval-augmented-generation-rag",
+   "term": "retrieval-augmented generation (RAG)",
+   "ipa": "/rɪˈtriːvl ɔːɡˈmentɪd ˌdʒenəˈreɪʃn/",
+   "pos": "noun",
+   "ru": "генерация с поиском по базе знаний",
+   "definition": "The model first searches a knowledge base, then writes an answer using what it found.",
+   "example": "We built a **RAG** system so the bot can answer questions about our documents.",
+   "colloc": [],
+   "note": "RAG читается как слово: /ræɡ/.",
+   "img": "mlai_rag.png",
+   "emoji": "📚",
+   "category": "LLMs & GenAI",
+   "hint": "r________-a________ g_________"
+  },
+  {
+   "id": "alignment",
+   "term": "alignment",
+   "ipa": "/əˈlaɪnmənt/",
+   "pos": "noun",
+   "ru": "согласование ИИ с целями и ценностями людей",
+   "definition": "Making AI systems behave according to human intentions and values.",
+   "example": "**Alignment** research tries to make AI systems safe and helpful.",
+   "colloc": [
+    "AI alignment",
+    "aligned model"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧭",
+   "category": "LLMs & GenAI",
+   "hint": "a________"
+  },
+  {
+   "id": "rlhf",
+   "term": "RLHF",
+   "ipa": "/ˌɑːr el eɪtʃ ˈef/",
+   "pos": "noun",
+   "ru": "обучение с подкреплением на отзывах людей",
+   "definition": "Reinforcement Learning from Human Feedback: fine-tuning a model using people's ratings of its answers.",
+   "example": "**RLHF** made the chatbot more polite and helpful.",
+   "colloc": [
+    "human feedback",
+    "reward model"
+   ],
+   "note": "",
+   "img": "mlai_rl.png",
+   "emoji": "👍",
+   "category": "LLMs & GenAI",
+   "hint": "R___"
+  },
+  {
+   "id": "ai-agent",
+   "term": "AI agent",
+   "ipa": "/ˌeɪ ˈaɪ ˈeɪdʒənt/",
+   "pos": "noun",
+   "ru": "ИИ-агент",
+   "definition": "A system that plans and takes actions with tools to reach a goal on its own.",
+   "example": "The **AI agent** booked the meeting and sent the invitations by itself.",
+   "colloc": [
+    "agentic (adj)",
+    "tool use"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🕹️",
+   "category": "LLMs & GenAI",
+   "hint": "A_ a____"
+  },
+  {
+   "id": "guardrails",
+   "term": "guardrails",
+   "ipa": "/ˈɡɑːrdreɪlz/",
+   "pos": "noun",
+   "ru": "ограничители, защитные механизмы",
+   "definition": "Rules and filters that keep an AI system's behavior safe.",
+   "example": "The company added **guardrails** to block harmful requests.",
+   "colloc": [
+    "safety guardrails",
+    "put guardrails in place"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🚧",
+   "category": "LLMs & GenAI",
+   "hint": "g_________"
+  },
+  {
+   "id": "open-source-model",
+   "term": "open-source model",
+   "ipa": "/ˌoʊpən ˈsɔːrs ˈmɑːdl/",
+   "pos": "noun",
+   "ru": "модель с открытым кодом / весами",
+   "definition": "A model whose weights or code are publicly available.",
+   "example": "Many startups build their products on **open-source models**.",
+   "colloc": [
+    "open weights"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🔓",
+   "category": "LLMs & GenAI",
+   "hint": "o___-s_____ m____"
+  },
+  {
+   "id": "latency",
+   "term": "latency",
+   "ipa": "/ˈleɪtənsi/",
+   "pos": "noun",
+   "ru": "задержка (время отклика)",
+   "definition": "The time between sending a request and getting the response.",
+   "example": "Smaller models have lower **latency**.",
+   "colloc": [
+    "low / high latency",
+    "reduce latency"
+   ],
+   "note": "",
+   "img": "mlai_tradeoff.png",
+   "emoji": "⏱️",
+   "category": "LLMs & GenAI",
+   "hint": "l______"
+  },
+  {
+   "id": "trade-off",
+   "term": "trade-off",
+   "ipa": "/ˈtreɪd ɔːf/",
+   "pos": "noun",
+   "ru": "компромисс",
+   "definition": "A balance between two things, where getting more of one means getting less of the other.",
+   "example": "There's a **trade-off** between accuracy and speed.",
+   "colloc": [
+    "a trade-off between X and Y",
+    "make a trade-off"
+   ],
+   "note": "",
+   "img": "mlai_tradeoff.png",
+   "emoji": "⚖️",
+   "category": "LLMs & GenAI",
+   "hint": "t____-o__"
+  },
+  {
+   "id": "next-token-prediction",
+   "term": "next-token prediction",
+   "ipa": "/ˌnekst ˈtoʊkən prɪˈdɪkʃn/",
+   "pos": "noun",
+   "ru": "предсказание следующего токена",
+   "definition": "The training task of guessing which piece of text comes next.",
+   "example": "Surprisingly, **next-token prediction** leads to skills like translation and coding.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_temp.png",
+   "emoji": "⏭️",
+   "category": "LLMs & GenAI",
+   "hint": "n___-t____ p_________"
+  },
+  {
+   "id": "scaling-laws",
+   "term": "scaling laws",
+   "ipa": "/ˈskeɪlɪŋ lɔːz/",
+   "pos": "noun",
+   "ru": "законы масштабирования",
+   "definition": "The observed rule that performance improves predictably with more data, parameters and compute.",
+   "example": "**Scaling laws** help labs plan the size of their next model.",
+   "colloc": [],
+   "note": "",
+   "img": "mlai_scaling.png",
+   "emoji": "📈",
+   "category": "LLMs & GenAI",
+   "hint": "s______ l___"
+  },
+  {
+   "id": "synthetic-data",
+   "term": "synthetic data",
+   "ipa": "/sɪnˈθetɪk ˈdeɪtə/",
+   "pos": "noun",
+   "ru": "синтетические данные",
+   "definition": "Artificially generated data used for training or testing.",
+   "example": "We generated **synthetic data** to cover rare cases.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🧬",
+   "category": "LLMs & GenAI",
+   "hint": "s________ d___"
+  },
+  {
+   "id": "jailbreak",
+   "term": "jailbreak",
+   "ipa": "/ˈdʒeɪlbreɪk/",
+   "pos": "noun / verb",
+   "ru": "джейлбрейк, обход ограничений",
+   "definition": "A trick prompt that makes a model ignore its safety rules.",
+   "example": "Researchers found a new **jailbreak** that bypassed the filters.",
+   "colloc": [
+    "jailbreak a model"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🔓",
+   "category": "LLMs & GenAI",
+   "hint": "j________"
+  },
+  {
+   "id": "fit-a-model-to-the-data",
+   "term": "fit a model to the data",
+   "ipa": "/fɪt ə ˈmɑːdl tə ðə ˈdeɪtə/",
+   "pos": "collocation",
+   "ru": "подогнать модель под данные",
+   "definition": "To train a model so that it matches the data.",
+   "example": "We **fitted a linear model to the data**.",
+   "colloc": [],
+   "note": "Прошедшее: fitted (UK) / fit (US).",
+   "img": "mlai_regression.png",
+   "emoji": "🧷",
+   "category": "Verbs & collocations",
+   "hint": "f__ a m____ t_ t__ d___"
+  },
+  {
+   "id": "tune",
+   "term": "tune",
+   "ipa": "/tuːn/",
+   "pos": "verb",
+   "ru": "настраивать, подбирать",
+   "definition": "To adjust settings carefully to improve performance.",
+   "example": "We **tuned** the learning rate on the validation set.",
+   "colloc": [
+    "tune hyperparameters",
+    "fine-tune"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎛️",
+   "category": "Verbs & collocations",
+   "hint": "t___"
+  },
+  {
+   "id": "deploy",
+   "term": "deploy",
+   "ipa": "/dɪˈplɔɪ/",
+   "pos": "verb",
+   "ru": "развернуть, внедрить (в продакшн)",
+   "definition": "To put a model or system into real use.",
+   "example": "The model was **deployed** to production last week.",
+   "colloc": [
+    "deploy to production",
+    "deployment (n)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🚀",
+   "category": "Verbs & collocations",
+   "hint": "d_____"
+  },
+  {
+   "id": "outperform",
+   "term": "outperform",
+   "ipa": "/ˌaʊtpərˈfɔːrm/",
+   "pos": "verb",
+   "ru": "превосходить, работать лучше",
+   "definition": "To do better than someone or something else.",
+   "example": "Our approach **outperforms** previous methods by 3%.",
+   "colloc": [
+    "significantly outperform",
+    "outperform the baseline"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🥇",
+   "category": "Verbs & collocations",
+   "hint": "o_________"
+  },
+  {
+   "id": "evaluate",
+   "term": "evaluate",
+   "ipa": "/ɪˈvæljueɪt/",
+   "pos": "verb",
+   "ru": "оценивать",
+   "definition": "To measure how good something is.",
+   "example": "We **evaluated** the model on three different datasets.",
+   "colloc": [
+    "evaluate performance",
+    "evaluation (n)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📝",
+   "category": "Verbs & collocations",
+   "hint": "e_______"
+  },
+  {
+   "id": "run-an-experiment",
+   "term": "run an experiment",
+   "ipa": "/rʌn ən ɪkˈsperɪmənt/",
+   "pos": "collocation",
+   "ru": "провести эксперимент",
+   "definition": "To carry out a test in order to find something out.",
+   "example": "We **ran an experiment** with different batch sizes.",
+   "colloc": [
+    "conduct / carry out an experiment"
+   ],
+   "note": "Не «make an experiment».",
+   "img": "",
+   "emoji": "🧪",
+   "category": "Verbs & collocations",
+   "hint": "r__ a_ e_________"
+  },
+  {
+   "id": "gather-data",
+   "term": "gather data",
+   "ipa": "/ˈɡæðər ˈdeɪtə/",
+   "pos": "collocation",
+   "ru": "собирать данные",
+   "definition": "To collect information for analysis.",
+   "example": "We **gathered data** from 500 volunteers.",
+   "colloc": [
+    "collect data",
+    "data collection"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧺",
+   "category": "Verbs & collocations",
+   "hint": "g_____ d___"
+  },
+  {
+   "id": "annotate",
+   "term": "annotate",
+   "ipa": "/ˈænəteɪt/",
+   "pos": "verb",
+   "ru": "размечать, аннотировать",
+   "definition": "To add labels or notes to data.",
+   "example": "Doctors **annotated** 2,000 X-ray images.",
+   "colloc": [
+    "annotated data",
+    "annotation (n)",
+    "annotator"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🖍️",
+   "category": "Verbs & collocations",
+   "hint": "a_______"
+  },
+  {
+   "id": "leverage",
+   "term": "leverage",
+   "ipa": "/ˈlevərɪdʒ/",
+   "pos": "verb",
+   "ru": "использовать с выгодой",
+   "definition": "To use something to its maximum advantage.",
+   "example": "We **leverage** pre-trained models to save time.",
+   "colloc": [],
+   "note": "Бизнес-слово; в эссе часто лучше use / make use of. Британский вариант — /ˈliːvərɪdʒ/.",
+   "img": "",
+   "emoji": "🪝",
+   "category": "Verbs & collocations",
+   "hint": "l_______"
+  },
+  {
+   "id": "mitigate",
+   "term": "mitigate",
+   "ipa": "/ˈmɪtɪɡeɪt/",
+   "pos": "verb",
+   "ru": "смягчать, снижать (риск, вред)",
+   "definition": "To make something bad less serious.",
+   "example": "Data augmentation helps **mitigate** overfitting.",
+   "colloc": [
+    "mitigate risks / bias",
+    "mitigation (n)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🛡️",
+   "category": "Verbs & collocations",
+   "hint": "m_______"
+  },
+  {
+   "id": "be-prone-to",
+   "term": "be prone to",
+   "ipa": "/bi ˈproʊn tuː/",
+   "pos": "collocation",
+   "ru": "быть склонным к (чему-то плохому)",
+   "definition": "To be likely to suffer from something.",
+   "example": "Large models **are prone to** overfitting on small datasets.",
+   "colloc": [
+    "prone to errors",
+    "error-prone"
+   ],
+   "note": "После to — существительное или -ing.",
+   "img": "",
+   "emoji": "⚠️",
+   "category": "Verbs & collocations",
+   "hint": "b_ p____ t_"
+  },
+  {
+   "id": "rely-heavily-on",
+   "term": "rely heavily on",
+   "ipa": "/rɪˈlaɪ ˈhevɪli ɑːn/",
+   "pos": "collocation",
+   "ru": "сильно зависеть от",
+   "definition": "To depend a lot on something.",
+   "example": "The method **relies heavily on** high-quality labels.",
+   "colloc": [
+    "rely on",
+    "reliable",
+    "reliance (n)"
+   ],
+   "note": "Предлог только on.",
+   "img": "",
+   "emoji": "🤝",
+   "category": "Verbs & collocations",
+   "hint": "r___ h______ o_"
+  },
+  {
+   "id": "account-for",
+   "term": "account for",
+   "ipa": "/əˈkaʊnt fɔːr/",
+   "pos": "phrasal verb",
+   "ru": "объяснять; составлять (долю); учитывать",
+   "definition": "To explain something, or to form a particular part of a total.",
+   "example": "The new feature **accounts for** most of the improvement.",
+   "colloc": [
+    "account for 40% of"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧾",
+   "category": "Verbs & collocations",
+   "hint": "a______ f__"
+  },
+  {
+   "id": "boost-performance",
+   "term": "boost performance",
+   "ipa": "/buːst pərˈfɔːrməns/",
+   "pos": "collocation",
+   "ru": "заметно улучшить качество",
+   "definition": "To improve results noticeably.",
+   "example": "Combining several models **boosted performance** by 2%.",
+   "colloc": [
+    "boost accuracy",
+    "a performance boost"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🚀",
+   "category": "Verbs & collocations",
+   "hint": "b____ p__________"
+  },
+  {
+   "id": "come-at-the-cost-of",
+   "term": "come at the cost of",
+   "ipa": "/kʌm ət ðə ˈkɔːst əv/",
+   "pos": "phrase",
+   "ru": "достигаться ценой",
+   "definition": "To be achieved only by losing something else.",
+   "example": "Higher accuracy **comes at the cost of** slower inference.",
+   "colloc": [
+    "at the expense of"
+   ],
+   "note": "",
+   "img": "mlai_tradeoff.png",
+   "emoji": "💸",
+   "category": "Verbs & collocations",
+   "hint": "c___ a_ t__ c___ o_"
+  },
+  {
+   "id": "human-in-the-loop",
+   "term": "human-in-the-loop",
+   "ipa": "/ˌhjuːmən ɪn ðə ˈluːp/",
+   "pos": "adjective / noun",
+   "ru": "с участием человека (в контуре)",
+   "definition": "A setup in which people check or correct an AI system's decisions.",
+   "example": "Medical AI should keep a **human in the loop**.",
+   "colloc": [
+    "human-in-the-loop system"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧑‍⚖️",
+   "category": "Verbs & collocations",
+   "hint": "h____-i_-t__-l___"
+  },
+  {
+   "id": "garbage-in-garbage-out",
+   "term": "garbage in, garbage out",
+   "ipa": "/ˈɡɑːrbɪdʒ ɪn ˈɡɑːrbɪdʒ aʊt/",
+   "pos": "saying",
+   "ru": "мусор на входе — мусор на выходе",
+   "definition": "Bad input data inevitably leads to bad results.",
+   "example": "A model is only as good as its data: **garbage in, garbage out**.",
+   "colloc": [
+    "GIGO"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🗑️",
+   "category": "Verbs & collocations",
+   "hint": "g______ i_, g______ o__"
+  },
+  {
+   "id": "cherry-pick",
+   "term": "cherry-pick",
+   "ipa": "/ˈtʃeri pɪk/",
+   "pos": "verb",
+   "ru": "выбирать только удачные примеры",
+   "definition": "To choose only the examples that support your point.",
+   "example": "The demo examples were clearly **cherry-picked**.",
+   "colloc": [
+    "cherry-picked results"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🍒",
+   "category": "Verbs & collocations",
+   "hint": "c_____-p___"
+  },
+  {
+   "id": "sanity-check",
+   "term": "sanity check",
+   "ipa": "/ˈsænəti tʃek/",
+   "pos": "noun",
+   "ru": "проверка на здравый смысл",
+   "definition": "A quick test to make sure results are not obviously wrong.",
+   "example": "As a **sanity check**, we first trained on a tiny dataset.",
+   "colloc": [
+    "do / run a sanity check"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🧐",
+   "category": "Verbs & collocations",
+   "hint": "s_____ c____"
+  },
+  {
+   "id": "rule-of-thumb",
+   "term": "rule of thumb",
+   "ipa": "/ˌruːl əv ˈθʌm/",
+   "pos": "idiom",
+   "ru": "эмпирическое правило",
+   "definition": "A practical rule based on experience rather than exact theory.",
+   "example": "As a **rule of thumb**, start with a learning rate of 0.001.",
+   "colloc": [
+    "as a rule of thumb"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "👍",
+   "category": "Verbs & collocations",
+   "hint": "r___ o_ t____"
+  },
+  {
+   "id": "in-simple-terms",
+   "term": "In simple terms, …",
+   "ipa": "",
+   "pos": "phrase",
+   "ru": "простыми словами…",
+   "definition": "Used before explaining something complicated in an easy way.",
+   "example": "**In simple terms**, a neural network is a very flexible function.",
+   "colloc": [
+    "simply put",
+    "to put it simply"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🗣️",
+   "category": "Talking about tech",
+   "hint": "I_ s_____ t____,"
+  },
+  {
+   "id": "the-key-idea-behind-x-is",
+   "term": "The key idea behind X is …",
+   "ipa": "",
+   "pos": "phrase",
+   "ru": "ключевая идея X в том, что…",
+   "definition": "Introduces the main principle of a method or concept.",
+   "example": "**The key idea behind** gradient descent is to move downhill step by step.",
+   "colloc": [
+    "the main idea",
+    "the intuition behind"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🔑",
+   "category": "Talking about tech",
+   "hint": "T__ k__ i___ b_____ X i_"
+  },
+  {
+   "id": "it-all-boils-down-to",
+   "term": "It (all) boils down to …",
+   "ipa": "/ˌbɔɪlz ˈdaʊn tuː/",
+   "pos": "phrase",
+   "ru": "всё сводится к…",
+   "definition": "The most important point is…",
+   "example": "In the end, **it all boils down to** the quality of the data.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🍲",
+   "category": "Talking about tech",
+   "hint": "I_ b____ d___ t_"
+  },
+  {
+   "id": "roughly-speaking",
+   "term": "roughly speaking",
+   "ipa": "/ˈrʌfli ˈspiːkɪŋ/",
+   "pos": "phrase",
+   "ru": "грубо говоря, приблизительно",
+   "definition": "Approximately, without going into details.",
+   "example": "**Roughly speaking**, the model guesses the most likely next word.",
+   "colloc": [
+    "broadly speaking",
+    "more or less"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "〰️",
+   "category": "Talking about tech",
+   "hint": "r______ s_______"
+  },
+  {
+   "id": "one-major-drawback-is",
+   "term": "One major drawback is …",
+   "ipa": "/ˈdrɔːbæk/",
+   "pos": "phrase",
+   "ru": "один из главных недостатков — …",
+   "definition": "Introduces an important disadvantage.",
+   "example": "**One major drawback is** the huge energy consumption.",
+   "colloc": [
+    "a serious drawback",
+    "downside"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "👎",
+   "category": "Talking about tech",
+   "hint": "O__ m____ d_______ i_"
+  },
+  {
+   "id": "on-the-flip-side",
+   "term": "On the flip side, …",
+   "ipa": "/ɑːn ðə ˈflɪp saɪd/",
+   "pos": "phrase",
+   "ru": "с другой стороны, …",
+   "definition": "Introduces the opposite aspect of something (informal).",
+   "example": "AI saves time. **On the flip side**, it can make people less independent.",
+   "colloc": [
+    "on the other hand"
+   ],
+   "note": "Для эссе формальнее: On the other hand / However.",
+   "img": "",
+   "emoji": "🪙",
+   "category": "Talking about tech",
+   "hint": "O_ t__ f___ s___,"
+  },
+  {
+   "id": "it-s-worth-noting-that",
+   "term": "It's worth noting that …",
+   "ipa": "/ɪts ˈwɝːθ ˈnoʊtɪŋ/",
+   "pos": "phrase",
+   "ru": "стоит отметить, что…",
+   "definition": "Draws attention to an important point.",
+   "example": "**It's worth noting that** the dataset was very small.",
+   "colloc": [
+    "it is worth mentioning"
+   ],
+   "note": "После worth — -ing.",
+   "img": "",
+   "emoji": "📌",
+   "category": "Talking about tech",
+   "hint": "I_'s w____ n_____ t___"
+  },
+  {
+   "id": "this-raises-concerns-about",
+   "term": "This raises concerns about …",
+   "ipa": "/reɪzɪz kənˈsɝːnz/",
+   "pos": "phrase",
+   "ru": "это вызывает опасения по поводу…",
+   "definition": "Introduces a possible problem or worry.",
+   "example": "Training on user chats **raises concerns about** privacy.",
+   "colloc": [
+    "raise questions / concerns"
+   ],
+   "note": "raise (что-то) ≠ rise (само поднимается).",
+   "img": "",
+   "emoji": "😟",
+   "category": "Talking about tech",
+   "hint": "T___ r_____ c_______ a____"
+  },
+  {
+   "id": "a-double-edged-sword",
+   "term": "a double-edged sword",
+   "ipa": "/ə ˌdʌbl edʒd ˈsɔːrd/",
+   "pos": "idiom",
+   "ru": "палка о двух концах",
+   "definition": "Something that has both advantages and disadvantages.",
+   "example": "Recommendation algorithms are **a double-edged sword**.",
+   "colloc": [],
+   "note": "В sword буква w не читается: /sɔːrd/.",
+   "img": "",
+   "emoji": "🗡️",
+   "category": "Talking about tech",
+   "hint": "a d_____-e____ s____"
+  },
+  {
+   "id": "pave-the-way-for",
+   "term": "pave the way for",
+   "ipa": "/peɪv ðə ˈweɪ fɔːr/",
+   "pos": "idiom",
+   "ru": "проложить путь к",
+   "definition": "To make a future development possible.",
+   "example": "Transformers **paved the way for** modern chatbots.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🛣️",
+   "category": "Talking about tech",
+   "hint": "p___ t__ w__ f__"
+  },
+  {
+   "id": "cutting-edge",
+   "term": "cutting-edge",
+   "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+   "pos": "adjective",
+   "ru": "передовой, новейший",
+   "definition": "The most advanced at the moment.",
+   "example": "She works on **cutting-edge** research in robotics.",
+   "colloc": [
+    "at the cutting edge of"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🔪",
+   "category": "Talking about tech",
+   "hint": "c______-e___"
+  },
+  {
+   "id": "game-changer",
+   "term": "game-changer",
+   "ipa": "/ˈɡeɪm tʃeɪndʒər/",
+   "pos": "noun",
+   "ru": "то, что меняет правила игры",
+   "definition": "Something that completely changes a situation.",
+   "example": "Cheap GPUs were a **game-changer** for deep learning.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🃏",
+   "category": "Talking about tech",
+   "hint": "g___-c______"
+  },
+  {
+   "id": "in-the-long-run",
+   "term": "in the long run",
+   "ipa": "/ɪn ðə ˈlɔːŋ rʌn/",
+   "pos": "phrase",
+   "ru": "в долгосрочной перспективе",
+   "definition": "Over a long period of time in the future.",
+   "example": "**In the long run**, automation may create new types of jobs.",
+   "colloc": [
+    "in the short run / term"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🏃‍♂️",
+   "category": "Talking about tech",
+   "hint": "i_ t__ l___ r__"
+  },
+  {
+   "id": "to-some-extent",
+   "term": "to some extent",
+   "ipa": "/tə ˈsʌm ɪkˈstent/",
+   "pos": "phrase",
+   "ru": "в некоторой степени",
+   "definition": "Partly; not completely.",
+   "example": "**To some extent**, AI already shapes the news we read.",
+   "colloc": [
+    "to a large extent",
+    "to a certain extent"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🌗",
+   "category": "Talking about tech",
+   "hint": "t_ s___ e_____"
+  },
+  {
+   "id": "a-growing-body-of-research",
+   "term": "a growing body of research",
+   "ipa": "/ˈɡroʊɪŋ ˈbɑːdi əv rɪˈsɝːtʃ/",
+   "pos": "phrase",
+   "ru": "растущее число исследований",
+   "definition": "More and more studies.",
+   "example": "**A growing body of research** suggests that AI tutors improve learning.",
+   "colloc": [
+    "a body of evidence"
+   ],
+   "note": "research — неисчисляемое: не «researches».",
+   "img": "",
+   "emoji": "📚",
+   "category": "Talking about tech",
+   "hint": "a g______ b___ o_ r_______"
+  },
+  {
+   "id": "it-s-only-a-matter-of-time-before",
+   "term": "It's only a matter of time before …",
+   "ipa": "",
+   "pos": "phrase",
+   "ru": "это лишь вопрос времени, когда…",
+   "definition": "Something will definitely happen soon.",
+   "example": "**It's only a matter of time before** AI assistants become standard at work.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "⏳",
+   "category": "Talking about tech",
+   "hint": "I_'s o___ a m_____ o_ t___ b_____"
+  },
+  {
+   "id": "keep-up-with",
+   "term": "keep up with",
+   "ipa": "/ˌkiːp ˈʌp wɪð/",
+   "pos": "phrasal verb",
+   "ru": "поспевать за, не отставать от",
+   "definition": "To stay at the same level or speed as something that changes fast.",
+   "example": "It's hard to **keep up with** how fast AI is developing.",
+   "colloc": [
+    "keep up with the latest research"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🏎️",
+   "category": "Talking about tech",
+   "hint": "k___ u_ w___"
+  },
+  {
+   "id": "hype",
+   "term": "hype",
+   "ipa": "/haɪp/",
+   "pos": "noun",
+   "ru": "шумиха, хайп",
+   "definition": "Exaggerated excitement about something.",
+   "example": "Not every AI startup lives up to the **hype**.",
+   "colloc": [
+    "live up to the hype",
+    "overhyped",
+    "hype cycle"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📣",
+   "category": "Talking about tech",
+   "hint": "h___"
+  },
+  {
+   "id": "live-up-to-expectations",
+   "term": "live up to expectations",
+   "ipa": "/ˌlɪv ʌp tuː ˌekspekˈteɪʃnz/",
+   "pos": "phrase",
+   "ru": "оправдать ожидания",
+   "definition": "To be as good as people expected.",
+   "example": "The new model didn't **live up to expectations**.",
+   "colloc": [
+    "fall short of expectations"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎁",
+   "category": "Talking about tech",
+   "hint": "l___ u_ t_ e___________"
+  },
+  {
+   "id": "from-my-perspective",
+   "term": "From my perspective, …",
+   "ipa": "/pərˈspektɪv/",
+   "pos": "phrase",
+   "ru": "с моей точки зрения…",
+   "definition": "Introduces your personal opinion.",
+   "example": "**From my perspective**, AI should support teachers, not replace them.",
+   "colloc": [
+    "as far as I'm concerned",
+    "in my view"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🙋",
+   "category": "Talking about tech",
+   "hint": "F___ m_ p__________,"
+  },
+  {
+   "id": "automation",
+   "term": "automation",
+   "ipa": "/ˌɔːtəˈmeɪʃn/",
+   "pos": "noun",
+   "ru": "автоматизация",
+   "definition": "Using machines or software to do tasks instead of people.",
+   "example": "**Automation** has completely changed factory work.",
+   "colloc": [
+    "automate (v)",
+    "automated"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🏭",
+   "category": "AI & society",
+   "hint": "a_________"
+  },
+  {
+   "id": "job-displacement",
+   "term": "job displacement",
+   "ipa": "/ˈdʒɑːb dɪsˈpleɪsmənt/",
+   "pos": "noun",
+   "ru": "вытеснение рабочих мест",
+   "definition": "The loss of jobs because machines or AI take over the work.",
+   "example": "Economists worry about **job displacement** in customer service.",
+   "colloc": [
+    "displace workers"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "💼",
+   "category": "AI & society",
+   "hint": "j__ d___________"
+  },
+  {
+   "id": "augment",
+   "term": "augment",
+   "ipa": "/ɔːɡˈment/",
+   "pos": "verb",
+   "ru": "расширять, усиливать (возможности)",
+   "definition": "To increase or improve something by adding to it.",
+   "example": "AI tools can **augment** doctors' abilities rather than replace them.",
+   "colloc": [
+    "augment human capabilities",
+    "augmentation (n)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🦾",
+   "category": "AI & society",
+   "hint": "a______"
+  },
+  {
+   "id": "algorithmic-bias",
+   "term": "algorithmic bias",
+   "ipa": "/ˌælɡəˈrɪðmɪk ˈbaɪəs/",
+   "pos": "noun",
+   "ru": "алгоритмическая предвзятость",
+   "definition": "Unfair results caused by biased data or design.",
+   "example": "**Algorithmic bias** led the hiring tool to reject female candidates.",
+   "colloc": [
+    "bias against",
+    "biased data"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎭",
+   "category": "AI & society",
+   "hint": "a__________ b___"
+  },
+  {
+   "id": "explainability",
+   "term": "explainability",
+   "ipa": "/ɪkˌspleɪnəˈbɪləti/",
+   "pos": "noun",
+   "ru": "объяснимость",
+   "definition": "How well people can understand why a model made a particular decision.",
+   "example": "Banks need **explainability** to justify loan decisions.",
+   "colloc": [
+    "interpretability",
+    "explainable AI (XAI)"
+   ],
+   "note": "",
+   "img": "mlai_blackbox.png",
+   "emoji": "🔎",
+   "category": "AI & society",
+   "hint": "e_____________"
+  },
+  {
+   "id": "transparency",
+   "term": "transparency",
+   "ipa": "/trænsˈpærənsi/",
+   "pos": "noun",
+   "ru": "прозрачность",
+   "definition": "Openness about how a system works and what data it uses.",
+   "example": "Users demand more **transparency** from AI companies.",
+   "colloc": [
+    "lack of transparency",
+    "transparent (adj)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🪟",
+   "category": "AI & society",
+   "hint": "t___________"
+  },
+  {
+   "id": "accountability",
+   "term": "accountability",
+   "ipa": "/əˌkaʊntəˈbɪləti/",
+   "pos": "noun",
+   "ru": "ответственность, подотчётность",
+   "definition": "Being responsible for decisions and their consequences.",
+   "example": "If a self-driving car crashes, who bears **accountability**?",
+   "colloc": [
+    "hold sb accountable for"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "⚖️",
+   "category": "AI & society",
+   "hint": "a_____________"
+  },
+  {
+   "id": "privacy",
+   "term": "privacy",
+   "ipa": "/ˈpraɪvəsi/",
+   "pos": "noun",
+   "ru": "неприкосновенность частной жизни, конфиденциальность",
+   "definition": "The right to keep personal information protected.",
+   "example": "Training on user chats raises **privacy** issues.",
+   "colloc": [
+    "data privacy",
+    "invade sb's privacy"
+   ],
+   "note": "Британский вариант — /ˈprɪvəsi/.",
+   "img": "",
+   "emoji": "🔒",
+   "category": "AI & society",
+   "hint": "p______"
+  },
+  {
+   "id": "surveillance",
+   "term": "surveillance",
+   "ipa": "/sərˈveɪləns/",
+   "pos": "noun",
+   "ru": "слежка, наблюдение",
+   "definition": "Close monitoring of people, often by governments or companies.",
+   "example": "Facial recognition makes mass **surveillance** much easier.",
+   "colloc": [
+    "mass surveillance",
+    "under surveillance"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📹",
+   "category": "AI & society",
+   "hint": "s___________"
+  },
+  {
+   "id": "misinformation",
+   "term": "misinformation",
+   "ipa": "/ˌmɪsɪnfərˈmeɪʃn/",
+   "pos": "noun",
+   "ru": "дезинформация, ложная информация",
+   "definition": "False information that spreads, often without the intention to deceive.",
+   "example": "AI can generate **misinformation** at scale.",
+   "colloc": [
+    "spread misinformation"
+   ],
+   "note": "disinformation — ложь, распространяемая намеренно.",
+   "img": "",
+   "emoji": "📰",
+   "category": "AI & society",
+   "hint": "m_____________"
+  },
+  {
+   "id": "deepfake",
+   "term": "deepfake",
+   "ipa": "/ˈdiːpfeɪk/",
+   "pos": "noun",
+   "ru": "дипфейк",
+   "definition": "A realistic fake video or audio recording created with AI.",
+   "example": "A **deepfake** of the politician went viral.",
+   "colloc": [],
+   "note": "",
+   "img": "",
+   "emoji": "🎭",
+   "category": "AI & society",
+   "hint": "d_______"
+  },
+  {
+   "id": "regulation",
+   "term": "regulation",
+   "ipa": "/ˌreɡjuˈleɪʃn/",
+   "pos": "noun",
+   "ru": "регулирование",
+   "definition": "Official rules that control an activity.",
+   "example": "The EU AI Act is the first major **regulation** of AI.",
+   "colloc": [
+    "strict regulation",
+    "regulate (v)",
+    "regulator"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📜",
+   "category": "AI & society",
+   "hint": "r_________"
+  },
+  {
+   "id": "ethical-concerns",
+   "term": "ethical concerns",
+   "ipa": "/ˈeθɪkl kənˈsɝːnz/",
+   "pos": "noun",
+   "ru": "этические опасения",
+   "definition": "Worries about whether something is morally right.",
+   "example": "**Ethical concerns** around AI include bias, privacy and safety.",
+   "colloc": [
+    "raise ethical concerns",
+    "ethics (n)"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🤔",
+   "category": "AI & society",
+   "hint": "e______ c_______"
+  },
+  {
+   "id": "digital-divide",
+   "term": "digital divide",
+   "ipa": "/ˌdɪdʒɪtl dɪˈvaɪd/",
+   "pos": "noun",
+   "ru": "цифровое неравенство",
+   "definition": "The gap between people who have access to technology and those who don't.",
+   "example": "AI could widen the **digital divide**.",
+   "colloc": [
+    "bridge / widen the digital divide"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🌉",
+   "category": "AI & society",
+   "hint": "d______ d_____"
+  },
+  {
+   "id": "reskill-upskill",
+   "term": "reskill / upskill",
+   "ipa": "/ˌriːˈskɪl/ /ˈʌpskɪl/",
+   "pos": "verb",
+   "ru": "переобучиться / повысить квалификацию",
+   "definition": "To learn new skills for a different job / to improve skills for your current one.",
+   "example": "Workers will need to **reskill** as AI changes their jobs.",
+   "colloc": [
+    "reskilling programs"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "🎓",
+   "category": "AI & society",
+   "hint": "r______ / u______"
+  },
+  {
+   "id": "ai-literacy",
+   "term": "AI literacy",
+   "ipa": "/ˌeɪ ˈaɪ ˈlɪtərəsi/",
+   "pos": "noun",
+   "ru": "ИИ-грамотность",
+   "definition": "Understanding what AI can and can't do, and how to use it responsibly.",
+   "example": "Schools should start teaching **AI literacy**.",
+   "colloc": [
+    "digital literacy"
+   ],
+   "note": "",
+   "img": "",
+   "emoji": "📖",
+   "category": "AI & society",
+   "hint": "A_ l_______"
+  }
+ ]
+}
